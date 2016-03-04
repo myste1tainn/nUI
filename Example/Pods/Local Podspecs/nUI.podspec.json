@@ -1,0 +1,34 @@
+{
+  "name": "nUI",
+  "version": "0.1.0",
+  "summary": "Various kind of UI code that ease up UI manipulation",
+  "description": "",
+  "homepage": "https://github.com/myste1tainn/nUI",
+  "license": "MIT",
+  "authors": {
+    "A. Keereena": "arnon@invp.co.th"
+  },
+  "source": {
+    "git": "https://github.com/myste1tainn/nUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "nUI": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "dependencies": {
+    "FastImageCache": [
+      "~> 1.3"
+    ]
+  }
+}

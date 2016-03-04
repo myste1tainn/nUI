@@ -1,0 +1,24 @@
+PODS:
+  - FastImageCache (1.5.1)
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - nUI (0.1.0):
+    - FastImageCache (~> 1.3)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - nUI (from `../`)
+
+EXTERNAL SOURCES:
+  nUI:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FastImageCache: 2e7a6f677b15336eb3d1a4092a494676256c891d
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  nUI: 647e02fd85f71e18c0131cbaa19f58260a496f33
+
+COCOAPODS: 0.39.0

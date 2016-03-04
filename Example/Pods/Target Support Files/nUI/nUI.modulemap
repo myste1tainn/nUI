@@ -1,0 +1,6 @@
+framework module nUI {
+  umbrella header "nUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

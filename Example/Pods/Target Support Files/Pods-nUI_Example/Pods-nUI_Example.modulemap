@@ -1,0 +1,6 @@
+framework module Pods_nUI_Example {
+  umbrella header "Pods-nUI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
