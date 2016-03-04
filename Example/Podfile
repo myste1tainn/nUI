@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'nUI_Example', :exclusive => true do
+  pod 'nUI', :path => '../'
+end
+
+target 'nUI_Tests', :exclusive => true do
+  pod 'nUI', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end
