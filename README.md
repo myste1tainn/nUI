@@ -22,7 +22,7 @@ pod "nUI"
 
 ## Author
 
-A. Keereena, arnon@invp.co.th
+A. Keereena, a.keereena@gmail.com, myste1tainn.icez@gmail.com
 
 ## License
 

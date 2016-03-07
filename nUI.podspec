@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "nUI"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Various kind of UI code that ease up UI manipulation"
   s.description      = <<-DESC
 nUI Enable certain kind of UI manipulation in interface builder with @IBInspectable & @IBDesignable
