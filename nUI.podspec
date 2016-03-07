@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = "Various kind of UI code that ease up UI manipulation"
   s.description      = <<-DESC
 nUI Enable certain kind of UI manipulation in interface builder with @IBInspectable & @IBDesignable
-to give developer more visual information while developing/designing the app.
+to give developer more visual information while developing/designing any application.
                        DESC
 
   s.homepage         = "https://github.com/myste1tainn/nUI"
