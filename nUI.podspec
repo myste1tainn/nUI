@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "nUI"
+  s.name             = "nanoUI"
   s.version          = "0.1.1"
   s.summary          = "Various kind of UI code that ease up UI manipulation"
   s.description      = <<-DESC
