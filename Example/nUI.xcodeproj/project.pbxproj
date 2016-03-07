@@ -47,7 +47,7 @@
 		65A53442561DA1C0DF16BA3C /* Pods_nUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AE899A15CFC33EAA49DBC6 /* Pods-nUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nUI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nUI_Example/Pods-nUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7CC6400F692B967EF0C9E5A5 /* Pods-nUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nUI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-nUI_Example/Pods-nUI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A5C80A4C531F26D1DF0366DE /* nUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = nUI.podspec; path = ../nUI.podspec; sourceTree = "<group>"; };
+		A5C80A4C531F26D1DF0366DE /* nanoUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = nanoUI.podspec; path = ../nanoUI.podspec; sourceTree = "<group>"; };
 		C09AEAB4E9BC908BAB4A7EA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,7 +146,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				A5C80A4C531F26D1DF0366DE /* nUI.podspec */,
+				A5C80A4C531F26D1DF0366DE /* nanoUI.podspec */,
 				C09AEAB4E9BC908BAB4A7EA2 /* README.md */,
 				5678933E30BB3B5313F23E79 /* LICENSE */,
 			);
