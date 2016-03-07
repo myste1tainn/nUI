@@ -1,9 +1,9 @@
-# nUI
+# nanoUI
 
-[![CI Status](http://img.shields.io/travis/A. Keereena/nUI.svg?style=flat)](https://travis-ci.org/A. Keereena/nUI)
-[![Version](https://img.shields.io/cocoapods/v/nUI.svg?style=flat)](http://cocoapods.org/pods/nUI)
-[![License](https://img.shields.io/cocoapods/l/nUI.svg?style=flat)](http://cocoapods.org/pods/nUI)
-[![Platform](https://img.shields.io/cocoapods/p/nUI.svg?style=flat)](http://cocoapods.org/pods/nUI)
+[![CI Status](http://img.shields.io/travis/A. Keereena/nanoUI.svg?style=flat)](https://travis-ci.org/A. Keereena/nanoUI)
+[![Version](https://img.shields.io/cocoapods/v/nanoUI.svg?style=flat)](http://cocoapods.org/pods/nanoUI)
+[![License](https://img.shields.io/cocoapods/l/nanoUI.svg?style=flat)](http://cocoapods.org/pods/nanoUI)
+[![Platform](https://img.shields.io/cocoapods/p/nanoUI.svg?style=flat)](http://cocoapods.org/pods/nanoUI)
 
 ## Usage
 
@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-nUI is available through [CocoaPods](http://cocoapods.org). To install
+nanoUI is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -26,4 +26,4 @@ A. Keereena, a.keereena@gmail.com, myste1tainn.icez@gmail.com
 
 ## License
 
-nUI is available under the MIT license. See the LICENSE file for more info.
+nanoUI is available under the MIT license. See the LICENSE file for more info.
