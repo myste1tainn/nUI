@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '24EC5AF151D227DEBBCC3D08'
+               BlueprintIdentifier = '351154ADFAC6A9590019A43B'
                BlueprintName = 'nUI'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'nUI.framework'>

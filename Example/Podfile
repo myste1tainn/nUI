@@ -7,6 +7,4 @@ end
 
 target 'nUI_Tests', :exclusive => true do
   pod 'nUI', :path => '../'
-
-  pod 'FBSnapshotTestCase'
 end

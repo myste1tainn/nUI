@@ -20,18 +20,33 @@ public enum nUIActivityViewStyle: Int {
     case Light
 }
 
+public class nUIActivityViewOverlay: UIView, nUIActivityIndicator {
+    
+    public func startAnimating() {
+        (self.subviews[0] as! UIActivityIndicatorView).startAnimating()
+    }
+    
+    public func stopAnimating() {
+        (self.subviews[0] as! UIActivityIndicatorView).stopAnimating()
+    }
+    
+}
+
 public class nUIActivityView: UIActivityIndicatorView, nUIActivityIndicator {
     
-    public class func activityViewOverView(view: UIView, withStyle style: nUIActivityViewStyle = .Dark) -> nUIActivityView {
+    public class func activityViewOverView(view: UIView, withStyle style: nUIActivityViewStyle = .Dark) -> nUIActivityViewOverlay {
+        let overlay = nUIActivityViewOverlay(frame: view.bounds)
         let view = nUIActivityView(frame: view.bounds)
         
+        overlay.addSubview(view)
         if style == .Dark {
-            view.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.8)
+            overlay.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.8)
         } else {
-            view.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.8)
+            overlay.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.8)
+            view.activityIndicatorViewStyle = .Gray
         }
         
-        return view
+        return overlay
     }
     
     /*

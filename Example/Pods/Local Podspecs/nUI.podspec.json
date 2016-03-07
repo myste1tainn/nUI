@@ -6,7 +6,7 @@
   "homepage": "https://github.com/myste1tainn/nUI",
   "license": "MIT",
   "authors": {
-    "A. Keereena": "arnon@invp.co.th"
+    "A. Keereena": "myste1tainn.icez@gmail.com or a.keereena@gmail.com"
   },
   "source": {
     "git": "https://github.com/myste1tainn/nUI.git",
@@ -25,10 +25,5 @@
   "frameworks": [
     "Foundation",
     "UIKit"
-  ],
-  "dependencies": {
-    "FastImageCache": [
-      "~> 1.3"
-    ]
-  }
+  ]
 }

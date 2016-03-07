@@ -84,12 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-nUI_Tests/FastImageCache.framework"
   install_framework "Pods-nUI_Tests/nUI.framework"
   install_framework "Pods-nUI_Tests/FBSnapshotTestCase.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-nUI_Tests/FastImageCache.framework"
   install_framework "Pods-nUI_Tests/nUI.framework"
   install_framework "Pods-nUI_Tests/FBSnapshotTestCase.framework"
 fi

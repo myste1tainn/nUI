@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TgL-ER-bfs">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Second" id="vXZ-lx-hvc" customClass="ViewController" customModule="nUI_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +17,123 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y4w-yB-aJ0" customClass="nUIImageView" customModule="nUI">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="y4w-yB-aJ0" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-20" id="ELh-rm-Udl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="y4w-yB-aJ0" secondAttribute="trailing" constant="-20" id="QJo-1E-9UU"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="y4w-yB-aJ0" secondAttribute="bottom" id="Rfe-kG-g8U"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="y4w-yB-aJ0" secondAttribute="bottom" id="WLD-ET-rNm"/>
+                            <constraint firstItem="y4w-yB-aJ0" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-20" id="eik-lb-CQx"/>
+                            <constraint firstItem="y4w-yB-aJ0" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="216" id="upA-V6-l1s"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="upA-V6-l1s"/>
+                                <exclude reference="Rfe-kG-g8U"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="y4w-yB-aJ0" id="QJg-YM-EGc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1134" y="1047"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="2b1-AY-Wye">
+            <objects>
+                <viewController id="z14-ug-uTR" customClass="MainViewController" customModule="nUI_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jGD-cB-aPX"/>
+                        <viewControllerLayoutGuide type="bottom" id="l6q-EH-bBh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dLY-FU-iwK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1aw-sD-kmp" customClass="nUIView" customModule="nUI">
+                                <rect key="frame" x="20" y="91" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="circle" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="borderRadiusAsRatio" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ZMQ-mF-yc8" appends="YES" id="NMU-a0-neW"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MaU-gv-h00"/>
+                    <connections>
+                        <outlet property="nview" destination="1aw-sD-kmp" id="gZG-xX-voZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uGl-hV-7Wy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ZMQ-mF-yc8">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="show" id="aNF-Dh-WhK"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="457" y="1047"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lPf-22-kt3">
+            <objects>
+                <navigationController storyboardIdentifier="First" automaticallyAdjustsScrollViewInsets="NO" id="TgL-ER-bfs" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="B3Y-sV-ECL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="z14-ug-uTR" kind="relationship" relationship="rootViewController" id="q0w-Fd-O8F"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rch-qC-yvO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-355" y="1047"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6wx-62-j6Y">
+            <objects>
+                <viewController id="hwH-8a-tiQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pyj-yO-FTf"/>
+                        <viewControllerLayoutGuide type="bottom" id="uNh-4Z-Inz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VfF-v3-xUp" customClass="nUIContainerView" customModule="nUI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="menuStoryboardName" value="Main"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="menuViewControllerName" value="First"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="mainStoryboardName" value="Main"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="mainViewControllerName" value="Second"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qgh-Q1-lDr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-355" y="385"/>
         </scene>
     </scenes>
 </document>

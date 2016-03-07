@@ -8,71 +8,82 @@
 
 import UIKit
 
+@IBDesignable
 public class nUIImageView: UIImageView {
 
-    public var activityView: nUIActivityIndicator? {
-        didSet {
-            if let _ = self.activityView as? UIView {
-                assert(true)
-            } else {
-                assert(false, "Object implementing nUIAcitivityIndicator must be a subclass of UIView")
-            }
-        }
+    // MARK: - Designable view manipulation
+    @IBInspectable public var circle: Bool = false
+    @IBInspectable public var borderRadiusAsRatio: Bool = false
+    @IBInspectable public var borderColor: UIColor = UIColor.clearColor()
+    @IBInspectable public var borderWidth: CGFloat = 0.0
+    @IBInspectable public var borderRadius: CGFloat = 0.0
+    
+    required public init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)!
     }
     
-    public var activityViewStyle = nUIActivityViewStyle.Dark
+    override public init(frame: CGRect) {
+        super.init(frame: frame)
+    }
     
-    public func showActivityIndicator() {
-        if activityView == nil {
-            activityView = nUIActivityView.activityViewOverView(self, withStyle: activityViewStyle)
+    public override func drawRect(rect: CGRect) {
+        super.drawRect(rect)
+        
+        if circle {
+            let smallerOne = Math.smallerOneA(frame.size.width, orB: frame.size.height)
+            layer.cornerRadius = smallerOne / 2
+            clipsToBounds = true
         }
         
-        self.addSubview(activityView as! UIView)
-        self.activityView!.startAnimating()
-    }
-    
-    public func hideActivityIndicator() {
-        if let _ = activityView {
-            (activityView as! UIView).removeFromSuperview()
+        if borderRadius > 0
+        {
+            let cornerRadius = borderRadiusAsRatio ? frame.size.height * borderRadius : borderRadius
+            layer.cornerRadius = cornerRadius
+            layer.borderColor = borderColor.CGColor
+            layer.borderWidth = borderWidth
+            clipsToBounds = true
         }
     }
     
-    public func setImageWithURL(url: NSURL, doCache cache: Bool) {
+    public func setImageWithURL(url: NSURL, doCache cache: Bool = true) {
         let imageCache = nUIImageCache.defaultCache()
         if let image = imageCache.imageForURL(url) {
             self.image = image
         } else {
+            let mainQueue = NSOperationQueue.mainQueue()
+            
             self.showActivityIndicator()
+            
             NSURLSession
                 .sharedSession()
                 .dataTaskWithURL(
                     url,
                     completionHandler: { (data, _, error) -> Void in
-                        defer {
-                            self.hideActivityIndicator()
-                        }
-                        
-                        guard
-                            let data = data where error == nil,
-                            let image = UIImage(data: data)
-                            else { return }
-                        dispatch_async(dispatch_get_main_queue()) { () -> Void in
+                        let setImageblock = NSBlockOperation { () -> Void in
+                            
+                            // Whether setting image success/fails remove the activity indicator
+                            defer {
+                                self.hideActivityIndicator()
+                            }
+                            
+                            // Parse data to image with guard
+                            guard
+                                let data = data where error == nil,
+                                let image = UIImage(data: data)
+                                else { return }
+                            
+                            // Set the downloaded image
                             self.image = image
+                            
+                            // Do cache, if needed
                             if cache {
                                 imageCache.cacheImage(image, withURL: url)
                             }
                         }
+                        mainQueue.addOperation(setImageblock)
                     }
                 ).resume()
         }
     }
-    
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect) {
-    // Drawing code
-    }
-    */
 
 }
