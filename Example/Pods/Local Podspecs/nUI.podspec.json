@@ -1,8 +1,8 @@
 {
   "name": "nUI",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Various kind of UI code that ease up UI manipulation",
-  "description": "",
+  "description": "nUI Enable certain kind of UI manipulation in interface builder with @IBInspectable & @IBDesignable\nto give developer more visual information while developing/designing any application.",
   "homepage": "https://github.com/myste1tainn/nUI",
   "license": "MIT",
   "authors": {
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/myste1tainn/nUI.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

@@ -1,13 +1,7 @@
 PODS:
-  - FBSnapshotTestCase (2.0.7):
-    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
-  - FBSnapshotTestCase/Core (2.0.7)
-  - FBSnapshotTestCase/SwiftSupport (2.0.7):
-    - FBSnapshotTestCase/Core
-  - nUI (0.1.0)
+  - nUI (0.1.1)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - nUI (from `../`)
 
 EXTERNAL SOURCES:
@@ -15,7 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
-  nUI: 104b819aa55ab056ea49e98d6f27d58f8bbfae7f
+  nUI: 7451aef6cda6ae632b6f7c5c8b726e6596b7afc0
 
 COCOAPODS: 0.39.0
