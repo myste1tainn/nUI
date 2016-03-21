@@ -61,10 +61,9 @@ public extension UIView {
         if self.activityView == nil {
             self.activityView = nUIActivityView.activityViewOverView(self, withStyle: self.activityViewStyle)
         }
-        
         let view = self.activityView as? UIView
-        
         self.bringSubviewToFront(view!)
+        view!.frame = self.bounds
         view!.alpha = 0
         if self.activityIndicatorAnimate
         {

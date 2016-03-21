@@ -22,6 +22,14 @@ public enum nUIActivityViewStyle: Int {
 
 public class nUIActivityViewOverlay: UIView, nUIActivityIndicator {
     
+    override public var frame: CGRect {
+        didSet {
+            if self.subviews.count > 0 {
+                self.subviews[0].frame = self.frame
+            }
+        }
+    }
+    
     public func startAnimating() {
         (self.subviews[0] as! UIActivityIndicatorView).startAnimating()
     }
@@ -36,14 +44,14 @@ public class nUIActivityView: UIActivityIndicatorView, nUIActivityIndicator {
     
     public class func activityViewOverView(view: UIView, withStyle style: nUIActivityViewStyle = .Dark) -> nUIActivityViewOverlay {
         let overlay = nUIActivityViewOverlay(frame: view.bounds)
-        let view = nUIActivityView(frame: view.bounds)
+        let indicator = nUIActivityView(frame: view.bounds)
         
-        overlay.addSubview(view)
+        overlay.addSubview(indicator)
         if style == .Dark {
             overlay.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.8)
         } else {
             overlay.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.8)
-            view.activityIndicatorViewStyle = .Gray
+            indicator.activityIndicatorViewStyle = .Gray
         }
         
         return overlay

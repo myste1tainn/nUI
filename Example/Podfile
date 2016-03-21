@@ -1,10 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'nUI_Example', :exclusive => true do
-  pod 'nUI', :path => '../'
+target 'nanoUI_Example', :exclusive => true do
+  pod 'nanoUI', :path => '../'
 end
 
-target 'nUI_Tests', :exclusive => true do
-  pod 'nUI', :path => '../'
+target 'nanoUI_Tests', :exclusive => true do
+  pod 'nanoUI', :path => '../'
 end

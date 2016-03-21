@@ -8,9 +8,26 @@
 
 import UIKit
 
+public protocol nUIImageViewDelegate {
+    func imageView(imageView: nUIImageView, willSetImage image: UIImage)
+    func imageView(imageView: nUIImageView, didSetImage image: UIImage)
+}
+
 @IBDesignable
 public class nUIImageView: UIImageView {
 
+    public var delegate: nUIImageViewDelegate?
+    public override var image: UIImage? {
+        didSet {
+            guard
+                let _ = delegate,
+                let _ = image
+                else { return }
+            
+            delegate?.imageView(self, didSetImage: image!)
+        }
+    }
+    
     // MARK: - Designable view manipulation
     @IBInspectable public var circle: Bool = false
     @IBInspectable public var borderRadiusAsRatio: Bool = false
@@ -83,6 +100,18 @@ public class nUIImageView: UIImageView {
                         mainQueue.addOperation(setImageblock)
                     }
                 ).resume()
+        }
+    }
+    
+    /// Return height that fits the current view's width as compared to
+    /// actual image width so that it fits perfectly into view
+    public func heightThatFits() -> CGFloat {
+        if let _ = self.image {
+            let ratio = self.frame.size.width / self.image!.size.width
+            let expectedViewHeight = self.image!.size.height * ratio
+            return expectedViewHeight
+        } else {
+            return 0
         }
     }
 
