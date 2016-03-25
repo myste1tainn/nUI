@@ -21,10 +21,12 @@ public class nUIButton: UIButton {
     @IBInspectable public var borderRadius: CGFloat = 0.0
     
     required public init(coder aDecoder: NSCoder) {
+        self.type = -1
         super.init(coder: aDecoder)!
     }
     
     override public init(frame: CGRect) {
+        self.type = -1
         super.init(frame: frame)
     }
     
