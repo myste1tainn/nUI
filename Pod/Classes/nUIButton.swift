@@ -11,7 +11,7 @@ import UIKit
 public class nUIButton: UIButton {
 
     public var info: NSDictionary?
-    public var type: Int?
+    public var type: NSInteger
     
     // MARK: - Designable view manipulation
     @IBInspectable public var circle: Bool = false
