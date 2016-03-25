@@ -10,6 +10,9 @@ import UIKit
 
 public class nUIButton: UIButton {
 
+    public var info: NSDictionary?
+    public var type: Int?
+    
     // MARK: - Designable view manipulation
     @IBInspectable public var circle: Bool = false
     @IBInspectable public var borderRadiusAsRatio: Bool = false
