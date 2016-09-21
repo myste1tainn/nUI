@@ -7,7 +7,7 @@ nUI Enable certain kind of UI manipulation in interface builder with @IBInspecta
 to give developer more visual information while developing/designing any application.
                        DESC
 
-  s.homepage         = "https://github.com/myste1tainn/nUI"
+  s.homepage         = "https://github.com/myste1tainn/nanoUI"
   s.license          = 'MIT'
   s.author           = { "A. Keereena" => "myste1tainn.icez@gmail.com or a.keereena@gmail.com" }
   s.source           = { :git => "https://github.com/myste1tainn/nanoUI.git", :tag => s.version.to_s }
