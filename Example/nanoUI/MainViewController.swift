@@ -17,8 +17,8 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        nview.performSelector(Selector("showActivityIndicator"), withObject: nil, afterDelay: 3)
-        nview.performSelector(Selector("hideActivityIndicator"), withObject: nil, afterDelay: 6)
+//        nview.performSelector(Selector("showActivityIndicator"), withObject: nil, afterDelay: 3)
+//        nview.performSelector(Selector("hideActivityIndicator"), withObject: nil, afterDelay: 6)
     }
 
     override func didReceiveMemoryWarning() {
