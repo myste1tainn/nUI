@@ -1,6 +1,6 @@
 {
   "name": "nanoUI",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "summary": "Various kind of UI code that ease up UI manipulation",
   "description": "nUI Enable certain kind of UI manipulation in interface builder with @IBInspectable & @IBDesignable\nto give developer more visual information while developing/designing any application.",
   "homepage": "https://github.com/myste1tainn/nanoUI",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/myste1tainn/nanoUI.git",
-    "tag": "0.1.5"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
