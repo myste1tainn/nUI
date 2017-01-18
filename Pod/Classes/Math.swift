@@ -8,12 +8,12 @@
 
 import UIKit
 
-public class Math<T: Comparable>: NSObject {
+open class Math<T: Comparable>: NSObject {
 
-    public class func smallerOneA(A: T, orB B: T) -> T {
+    open class func smallerOneA(_ A: T, orB B: T) -> T {
         return (A > B) ? B : A
     }
-    public class func biggerOneA(A: T, orB B: T) -> T {
+    open class func biggerOneA(_ A: T, orB B: T) -> T {
         return (A > B) ? A : B
     }
     

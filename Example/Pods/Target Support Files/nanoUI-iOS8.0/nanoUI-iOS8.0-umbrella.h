@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_nanoUI_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_nanoUI_TestsVersionString[];
+FOUNDATION_EXPORT double nanoUIVersionNumber;
+FOUNDATION_EXPORT const unsigned char nanoUIVersionString[];
 

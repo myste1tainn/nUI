@@ -8,17 +8,17 @@
 
 import UIKit
 
-public class nUIButton: UIButton {
+open class nUIButton: UIButton {
 
-    public var info: NSDictionary?
-    public var type: NSInteger
+    open var info: NSDictionary?
+    open var type: NSInteger
     
     // MARK: - Designable view manipulation
-    @IBInspectable public var circle: Bool = false
-    @IBInspectable public var borderRadiusAsRatio: Bool = false
-    @IBInspectable public var borderColor: UIColor = UIColor.clearColor()
-    @IBInspectable public var borderWidth: CGFloat = 0.0
-    @IBInspectable public var borderRadius: CGFloat = 0.0
+    @IBInspectable open var circle: Bool = false
+    @IBInspectable open var borderRadiusAsRatio: Bool = false
+    @IBInspectable open var borderColor: UIColor = UIColor.clear
+    @IBInspectable open var borderWidth: CGFloat = 0.0
+    @IBInspectable open var borderRadius: CGFloat = 0.0
     
     required public init(coder aDecoder: NSCoder) {
         self.type = -1
@@ -30,8 +30,8 @@ public class nUIButton: UIButton {
         super.init(frame: frame)
     }
     
-    public override func drawRect(rect: CGRect) {
-        super.drawRect(rect)
+    open override func draw(_ rect: CGRect) {
+        super.draw(rect)
         
         if circle {
             let smallerOne = Math.smallerOneA(frame.size.width, orB: frame.size.height)
@@ -43,7 +43,7 @@ public class nUIButton: UIButton {
         {
             let cornerRadius = borderRadiusAsRatio ? frame.size.height * borderRadius : borderRadius
             layer.cornerRadius = cornerRadius
-            layer.borderColor = borderColor.CGColor
+            layer.borderColor = borderColor.cgColor
             layer.borderWidth = borderWidth
             clipsToBounds = true
         }

@@ -8,9 +8,9 @@
 
 import UIKit
 
-public class nUITableView: UITableView {
+open class nUITableView: UITableView {
 
-    @IBInspectable public var useIntrinsicContentSize: Bool = true
+    @IBInspectable open var useIntrinsicContentSize: Bool = true
     
     /*
     // Only override drawRect: if you perform custom drawing.
@@ -20,13 +20,13 @@ public class nUITableView: UITableView {
     }
     */
     
-    public override func intrinsicContentSize() -> CGSize {
+    open override var intrinsicContentSize : CGSize {
         if useIntrinsicContentSize {
-            return super.intrinsicContentSize()
+            return super.intrinsicContentSize
         } else {
             self.invalidateIntrinsicContentSize()
             self.layoutIfNeeded()
-            let size = CGSizeMake(UIViewNoIntrinsicMetric, self.contentSize.height)
+            let size = CGSize(width: UIViewNoIntrinsicMetric, height: self.contentSize.height)
             return size
         }
     }

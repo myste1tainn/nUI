@@ -9,21 +9,21 @@
 import UIKit
 
 @IBDesignable
-public class nUIContainerView: nUIView {
+open class nUIContainerView: nUIView {
 
-    @IBInspectable public var menuStoryboardName: String?
-    @IBInspectable public var menuViewControllerName: String?
-    @IBInspectable public var mainStoryboardName: String?
-    @IBInspectable public var mainViewControllerName: String?
+    @IBInspectable open var menuStoryboardName: String?
+    @IBInspectable open var menuViewControllerName: String?
+    @IBInspectable open var mainStoryboardName: String?
+    @IBInspectable open var mainViewControllerName: String?
     
-    override public func drawRect(rect: CGRect) {
-        super.drawRect(rect)
+    override open func draw(_ rect: CGRect) {
+        super.draw(rect)
         
         guard
-            let menuID = menuViewControllerName where menuID != "",
-            let menuSTB = menuStoryboardName where menuSTB != "",
-            let mainID = mainViewControllerName where mainID != "",
-            let mainSTB = mainStoryboardName where mainSTB != ""
+            let menuID = menuViewControllerName, menuID != "",
+            let menuSTB = menuStoryboardName, menuSTB != "",
+            let mainID = mainViewControllerName, mainID != "",
+            let mainSTB = mainStoryboardName, mainSTB != ""
             else
             {
                 return
@@ -35,8 +35,8 @@ public class nUIContainerView: nUIView {
         menuViewController.view.frame = self.frame
         mainViewController.view.frame = self.frame
         
-        menuViewController.view.backgroundColor = UIColor.greenColor()
-        mainViewController.view.backgroundColor = UIColor.redColor()
+        menuViewController.view.backgroundColor = UIColor.green
+        mainViewController.view.backgroundColor = UIColor.red
         
         self.addSubview(menuViewController.view)
         self.addSubview(mainViewController.view)
@@ -65,9 +65,9 @@ public class nUIContainerView: nUIView {
 //        mainViewController.view.addConstraints(mainConstraint)
     }
     
-    private func viewControllerWithID(id: String, fromStoryboardName name: String) -> UIViewController {
-        let stb = UIStoryboard(name: name, bundle: NSBundle.mainBundle())
-        let vc = stb.instantiateViewControllerWithIdentifier(id)
+    fileprivate func viewControllerWithID(_ id: String, fromStoryboardName name: String) -> UIViewController {
+        let stb = UIStoryboard(name: name, bundle: Bundle.main)
+        let vc = stb.instantiateViewController(withIdentifier: id)
         return vc
     }
 }

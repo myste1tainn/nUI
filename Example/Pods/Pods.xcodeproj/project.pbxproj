@@ -7,193 +7,222 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C8BA2FC2B23354935F0488AD48FAD53 /* nUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBF3454798EBD0F98085069F6C0B8 /* nUIButton.swift */; };
-		33DEC3ADF3ED544A434F2C77C77A6894 /* nanoUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3D839CBAD14CEE3CB7B14A5916FF47 /* nanoUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37206300EBC7E34674997E34235C9EBB /* nanoUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3183C12ABD68A5626CBF3D1D62C3FFFE /* nanoUI.bundle */; };
-		3F36AE2CE321D39145B1245F8AE9016A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		4AEEC1BA65A2E85AF61F094E91E8A3D4 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEEE778D5BD09662150F91EABDE4C89 /* Math.swift */; };
-		5041742330B56465E4E5C405FB407E42 /* nUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FC7AF2CD340698B6BD6AC0810707D0 /* nUITableView.swift */; };
-		59D7B96115D5AA2A712BA1D660EB29A4 /* nUIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E45341B389849BB49A561179AB3D841 /* nUIScrollView.swift */; };
-		6044003EC47AFAF6193C12FE0D8BE790 /* Pods-nanoUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2806B223CDA2EEFB242D96DF739D1AB8 /* Pods-nanoUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D4E473DBD979109FF95730B7EF30668 /* Pods-nanoUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A923F501B977E732C0211B239C04009 /* Pods-nanoUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7342513A5E36FBFB1E9D2C65F3BAAB68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
-		73C8B91B22B52DC3B839A611B11CB51D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		81BBBAC7B5F05BF88883D2E7E2A13B7B /* nUIActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D314C8BFC0EDC07A08F3639FFF66290 /* nUIActivityView.swift */; };
-		82B5D3CBABFBF49BF88183DEDC89F342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		A74517DE21AC617E1E43453F14159D75 /* nUIImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE80DCBE95E6CD70D6A94E826C24792 /* nUIImageCache.swift */; };
-		AD3F28F7A5911DD1EBE1F8E6C49E1D97 /* Pods-nanoUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF91AC6A2443D87B6D53A0ED40DEED68 /* Pods-nanoUI_Example-dummy.m */; };
-		B966E5E2A4E0A88E563F17B3BB68EBE7 /* nUIContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01479817E75B6A57AC917D16A07CAEF /* nUIContainerView.swift */; };
-		B9AA5B0D3107DCD5A6ADB7022D64B75A /* nUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2F27D4CFEF604C4EFD1166ACCE2B9D /* nUI.swift */; };
-		C2C2EA8D7030FA6684B2CA04E1BEA201 /* nUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82E73244495BC5616AE7CD614A3AD3C /* nUIView.swift */; };
-		E480BAAE05E5280587FAC16291676E97 /* nanoUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F32B3CBA7A2CF3ADCE0AC675DDCAF48 /* nanoUI-dummy.m */; };
-		F3AE21174FABBE3CB0B9B60A31BDC47B /* nUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FA5B640AA4D7FD127F674EF19C0157 /* nUIImageView.swift */; };
-		F9FA38689A379171474A624047236C91 /* Pods-nanoUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F55B039E54A5CB62095EA2CC76D0444 /* Pods-nanoUI_Tests-dummy.m */; };
+		06FB2B1D5B95DF902C605A283AF97413 /* Pods-nanoUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF91AC6A2443D87B6D53A0ED40DEED68 /* Pods-nanoUI_Example-dummy.m */; };
+		091E355D72D4273B0DA10E54CC0DCFFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		0D2D1A6A07C7AA3A1AEFEB5B8FE32140 /* nUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42801469D613B113442E156AF0A8B9F9 /* nUIButton.swift */; };
+		0FA721220AFEBE09B088247E2329BF32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		12DBFC5AF2FCD52C292096CC3E7906C5 /* nUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7523EA2B1A151B5DADA38B34699572B /* nUIImageView.swift */; };
+		1D68D21B9F22E7439174D74F03DF7101 /* Pods-nanoUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F55B039E54A5CB62095EA2CC76D0444 /* Pods-nanoUI_Tests-dummy.m */; };
+		213D5C75822008041F60FED1593E60DF /* nUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA85194C70EEE2D75B60A44D934CD7 /* nUIView.swift */; };
+		21774033333C89440BD256254A46CB51 /* nUIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BEE30F06EEDF7A9BFAB31D39D87F60 /* nUIScrollView.swift */; };
+		2C2A22409AC8BA6C22496673FD1CC127 /* nUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42801469D613B113442E156AF0A8B9F9 /* nUIButton.swift */; };
+		2E60213B0FBE5FBE28A7C4C01A5F8232 /* nanoUI-iOS8.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DB384334C1B1205F5C906F6AFA0A6A /* nanoUI-iOS8.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42B68165A09BC4D2DAAC49894A9D6868 /* nUIImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDBEB403ECBFC9AD8012DDA1C205B7D /* nUIImageCache.swift */; };
+		462D9C4BC7FDAE0DC2F2DDF3E988C51C /* nUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C8306BF9238958B8193E58ECC59F2 /* nUITableView.swift */; };
+		468E386187C12F64631E74AE25AAD91E /* nanoUI-iOS8.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2F3CFCAFD17C4DE629DE01B92EDE87D /* nanoUI-iOS8.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E34084CFFF48F573835AC6F46A57B65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		5CFC0CA404DFF9874CB60665FDDB4FAE /* nUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAD0236434214F6238685B0BDA3EEF /* nUI.swift */; };
+		6AC942503E0469DC2BA943A0B6DA883D /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CA1B397EDF719F5C5E0BA9BA705393 /* Math.swift */; };
+		711B443703E78DA7C853DB36F4FEB784 /* nUIContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E4558CEB029DF95867F73BC18A5953 /* nUIContainerView.swift */; };
+		72E1505D67E3AFCEF1302B0C7C4A7346 /* Pods-nanoUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2806B223CDA2EEFB242D96DF739D1AB8 /* Pods-nanoUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76BC7E1476A02D72DC8F810BA1927CD2 /* nanoUI-iOS8.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19490D335229AFEBAECB6C201373B6D4 /* nanoUI-iOS8.0-dummy.m */; };
+		8C54133C125E33BA551D6F7FFD3A5915 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		A9125EF7A2241D863776458C9FB7F6E7 /* nUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C8306BF9238958B8193E58ECC59F2 /* nUITableView.swift */; };
+		B087C2FBFC20CEB93E27E279B7CB0B7B /* nUIActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD7308C0A55B84213629BB0D03715 /* nUIActivityView.swift */; };
+		B181897881C217D26511A24C5D444201 /* nUIContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E4558CEB029DF95867F73BC18A5953 /* nUIContainerView.swift */; };
+		B222C3C501B02A70D680D9F823975245 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		B22D7D5EC960F42EA4CAF49995302B7E /* nanoUI-iOS8.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D302084D829C53657229534BE5BB78 /* nanoUI-iOS8.3-dummy.m */; };
+		BAE369F398CEFFCBBAECC88E6AFC4A83 /* nUIImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDBEB403ECBFC9AD8012DDA1C205B7D /* nUIImageCache.swift */; };
+		C381A92F4DBD5EC021835DDF155AF721 /* Pods-nanoUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A923F501B977E732C0211B239C04009 /* Pods-nanoUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAB1C82C7F4CE2B2A1D5C98436912391 /* nUIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BEE30F06EEDF7A9BFAB31D39D87F60 /* nUIScrollView.swift */; };
+		D279D8660D7EDC82D1C85604ADC56137 /* nUIActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD7308C0A55B84213629BB0D03715 /* nUIActivityView.swift */; };
+		D3493CF6264360896A03ECD7B8BB5166 /* nanoUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E65F3A4FDCC775F31B759FF2B2630DD /* nanoUI.bundle */; };
+		DA51DF28B61E2F976CAAA87C21F9BAA6 /* nUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAD0236434214F6238685B0BDA3EEF /* nUI.swift */; };
+		DFEA177FABF98B4D989BEE2A861942E2 /* nUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA85194C70EEE2D75B60A44D934CD7 /* nUIView.swift */; };
+		E0639CEF72C8C932F6EB2C83350860DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E303D1F6619539A4F40B3846A7D40683 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CA1B397EDF719F5C5E0BA9BA705393 /* Math.swift */; };
+		E653C152513676C8EB0C86F647E7A56A /* nanoUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E65F3A4FDCC775F31B759FF2B2630DD /* nanoUI.bundle */; };
+		EB273071F05D702B103BC6CC8A06C3DA /* nUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7523EA2B1A151B5DADA38B34699572B /* nUIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0EE35B8CEDF4579748C805F31998C65B /* PBXContainerItemProxy */ = {
+		494C9E440CE82216FC51B5255BC56C0D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B02C5EECEFAEE69E311751352B547A55;
-			remoteInfo = nanoUI;
+			remoteGlobalIDString = 636C41499C431C3A271A061967C3C61D;
+			remoteInfo = "nanoUI-iOS8.3-nanoUI";
 		};
-		99C5574FE1B808B3976C2253B3EF202D /* PBXContainerItemProxy */ = {
+		4D307D2E130FEC66597AAFD3913BD792 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4A8FD8E578BB5366A6B91B82B544DDB6;
-			remoteInfo = "nanoUI-nanoUI";
+			remoteGlobalIDString = CB0C11ADA9D4BFD9093748039B30EFA6;
+			remoteInfo = "nanoUI-iOS8.0-nanoUI";
 		};
-		ED2D1B392021FAE2762DF9A660CD1114 /* PBXContainerItemProxy */ = {
+		4DAC25064CA646991F3D3A3D57282C36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B02C5EECEFAEE69E311751352B547A55;
-			remoteInfo = nanoUI;
+			remoteGlobalIDString = 0628D3B16049C93804B2458A48AF9574;
+			remoteInfo = "nanoUI-iOS8.3";
+		};
+		5A88A88E5A257A28FE74AB4942FF967E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53D46B60A12B4B5AA34F72A2BD35698;
+			remoteInfo = "nanoUI-iOS8.0";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BAFBF3454798EBD0F98085069F6C0B8 /* nUIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUIButton.swift; sourceTree = "<group>"; };
+		0CB020C544CEE0D35E290539FBE81D26 /* ResourceBundle-nanoUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ResourceBundle-nanoUI-Info.plist"; path = "../nanoUI-iOS8.3/ResourceBundle-nanoUI-Info.plist"; sourceTree = "<group>"; };
 		0DB4D1688870D810278F994C9FBFA882 /* Pods-nanoUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nanoUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0E45341B389849BB49A561179AB3D841 /* nUIScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUIScrollView.swift; sourceTree = "<group>"; };
-		19FC7AF2CD340698B6BD6AC0810707D0 /* nUITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUITableView.swift; sourceTree = "<group>"; };
+		19490D335229AFEBAECB6C201373B6D4 /* nanoUI-iOS8.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanoUI-iOS8.0-dummy.m"; sourceTree = "<group>"; };
+		23447BB2511BE7DE86E3375C4B180A2B /* Pods_nanoUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_nanoUI_Tests.framework; path = "Pods-nanoUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A4E5E38369C9B1698F0019DEFBE092 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EFFC58E3D1934C2BDAA153C9E95B9E /* nanoUI-iOS8.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "nanoUI-iOS8.3-prefix.pch"; path = "../nanoUI-iOS8.3/nanoUI-iOS8.3-prefix.pch"; sourceTree = "<group>"; };
+		26F2EC814E0F76F4F65BE7D477D4BDD9 /* ResourceBundle-nanoUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-nanoUI-Info.plist"; sourceTree = "<group>"; };
 		2806B223CDA2EEFB242D96DF739D1AB8 /* Pods-nanoUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nanoUI_Example-umbrella.h"; sourceTree = "<group>"; };
-		2ABF15452406C4EA4458D51802093223 /* nanoUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nanoUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FC6FCD82AECC7022BF201B88A8E410 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3183C12ABD68A5626CBF3D1D62C3FFFE /* nanoUI.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nanoUI.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B9F2107BB5E0C25AADD842748456AA /* Pods-nanoUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nanoUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		38D3C5CA6CF54E70F8FA1B7CB03019D6 /* Pods-nanoUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-nanoUI_Tests.modulemap"; sourceTree = "<group>"; };
-		3911242D79A67505F31AFB2B9BB17E5B /* Pods_nanoUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nanoUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		368AD0CE9B1B8BC91AD7D62873ED5548 /* nanoUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanoUI.framework; path = "nanoUI-iOS8.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D3C5CA6CF54E70F8FA1B7CB03019D6 /* Pods-nanoUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-nanoUI_Tests.modulemap"; sourceTree = "<group>"; };
+		3E65F3A4FDCC775F31B759FF2B2630DD /* nanoUI.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = nanoUI.bundle; path = nanoUI.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		410FBE2600724C590D02A5523649B997 /* Pods-nanoUI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nanoUI_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		417C287C651DD791AA969AA1799A8DFB /* nanoUI-iOS8.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "nanoUI-iOS8.3.modulemap"; path = "../nanoUI-iOS8.3/nanoUI-iOS8.3.modulemap"; sourceTree = "<group>"; };
+		42801469D613B113442E156AF0A8B9F9 /* nUIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUIButton.swift; sourceTree = "<group>"; };
+		4A2C8306BF9238958B8193E58ECC59F2 /* nUITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUITableView.swift; sourceTree = "<group>"; };
 		4B6DEA782A0D87E2D1E854203C6EC7D2 /* Pods-nanoUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nanoUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D56293493DF5CB925BB36C99A37099C /* Pods_nanoUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_nanoUI_Example.framework; path = "Pods-nanoUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A07509EC9F799A2962CF1AD4186E4D0 /* Pods-nanoUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nanoUI_Example-frameworks.sh"; sourceTree = "<group>"; };
-		64E80ED5ED9DCDA1254A595D50A11869 /* Pods-nanoUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-nanoUI_Example.modulemap"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		64E80ED5ED9DCDA1254A595D50A11869 /* Pods-nanoUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-nanoUI_Example.modulemap"; sourceTree = "<group>"; };
+		65BE104D573CDD65F0D029182018DC52 /* nanoUI-iOS8.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "nanoUI-iOS8.3.xcconfig"; path = "../nanoUI-iOS8.3/nanoUI-iOS8.3.xcconfig"; sourceTree = "<group>"; };
 		6669017E9EAED48A9AC41FC01027A949 /* Pods-nanoUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nanoUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6A923F501B977E732C0211B239C04009 /* Pods-nanoUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nanoUI_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6F17338B0A51E6BB6B1034B71CD6855B /* Pods-nanoUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nanoUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F55B039E54A5CB62095EA2CC76D0444 /* Pods-nanoUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nanoUI_Tests-dummy.m"; sourceTree = "<group>"; };
+		74DB384334C1B1205F5C906F6AFA0A6A /* nanoUI-iOS8.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "nanoUI-iOS8.3-umbrella.h"; path = "../nanoUI-iOS8.3/nanoUI-iOS8.3-umbrella.h"; sourceTree = "<group>"; };
+		77AA85194C70EEE2D75B60A44D934CD7 /* nUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUIView.swift; sourceTree = "<group>"; };
 		7DD70E74E020C36F71B090FC732F7D64 /* Pods-nanoUI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nanoUI_Example-resources.sh"; sourceTree = "<group>"; };
-		7F32B3CBA7A2CF3ADCE0AC675DDCAF48 /* nanoUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanoUI-dummy.m"; sourceTree = "<group>"; };
-		7F42DE80D3D92CA357987BD18800D884 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D314C8BFC0EDC07A08F3639FFF66290 /* nUIActivityView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUIActivityView.swift; sourceTree = "<group>"; };
-		AB3D839CBAD14CEE3CB7B14A5916FF47 /* nanoUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanoUI-umbrella.h"; sourceTree = "<group>"; };
-		AEE80DCBE95E6CD70D6A94E826C24792 /* nUIImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUIImageCache.swift; sourceTree = "<group>"; };
-		AF2F27D4CFEF604C4EFD1166ACCE2B9D /* nUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUI.swift; sourceTree = "<group>"; };
-		B01479817E75B6A57AC917D16A07CAEF /* nUIContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUIContainerView.swift; sourceTree = "<group>"; };
-		B20D63BB93CE97A9BD400331D098222D /* nanoUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanoUI.xcconfig; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BCEEE778D5BD09662150F91EABDE4C89 /* Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
-		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		87E4558CEB029DF95867F73BC18A5953 /* nUIContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUIContainerView.swift; sourceTree = "<group>"; };
+		9063D49BA4C62EB1F0D0905CD5D34FB4 /* nanoUI-iOS8.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "nanoUI-iOS8.0.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96D302084D829C53657229534BE5BB78 /* nanoUI-iOS8.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "nanoUI-iOS8.3-dummy.m"; path = "../nanoUI-iOS8.3/nanoUI-iOS8.3-dummy.m"; sourceTree = "<group>"; };
+		A421374C9C8669B492CF483AAB468745 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../nanoUI-iOS8.3/Info.plist"; sourceTree = "<group>"; };
+		B7523EA2B1A151B5DADA38B34699572B /* nUIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUIImageView.swift; sourceTree = "<group>"; };
+		B8FF74449BF14C6E88EDE11CA305E84A /* nanoUI-iOS8.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanoUI-iOS8.0-prefix.pch"; sourceTree = "<group>"; };
 		C3F8D4D779475FCB131927CA05DAA14B /* Pods-nanoUI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nanoUI_Tests-resources.sh"; sourceTree = "<group>"; };
 		C540A79ED36CD27B88DC3DC724B81597 /* Pods-nanoUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nanoUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C54F7A47D48B567C191221CD5E0FFA51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6E97ED20EFA90AE3701C4C7AB8FD5AE /* Pods-nanoUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nanoUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD63E032E93A13207AB91A0480CD2B63 /* nanoUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanoUI.framework; path = "nanoUI-iOS8.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF91AC6A2443D87B6D53A0ED40DEED68 /* Pods-nanoUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nanoUI_Example-dummy.m"; sourceTree = "<group>"; };
-		D353616659DC11E9016242D80884C516 /* nanoUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanoUI-prefix.pch"; sourceTree = "<group>"; };
-		E2FA5B640AA4D7FD127F674EF19C0157 /* nUIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUIImageView.swift; sourceTree = "<group>"; };
-		E82E73244495BC5616AE7CD614A3AD3C /* nUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUIView.swift; sourceTree = "<group>"; };
+		D7BEE30F06EEDF7A9BFAB31D39D87F60 /* nUIScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUIScrollView.swift; sourceTree = "<group>"; };
+		DAEAD0236434214F6238685B0BDA3EEF /* nUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUI.swift; sourceTree = "<group>"; };
+		E1CA1B397EDF719F5C5E0BA9BA705393 /* Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		EA6AD7308C0A55B84213629BB0D03715 /* nUIActivityView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUIActivityView.swift; sourceTree = "<group>"; };
 		ECC8A3459BA604BC13E6C322F50FA1B6 /* Pods-nanoUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nanoUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F3E38801E614B683CA1E5F94E45FBFB1 /* Pods_nanoUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nanoUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC68EAB6CD238440937BD54B4CE2B564 /* nanoUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = nanoUI.modulemap; sourceTree = "<group>"; };
+		EDDBEB403ECBFC9AD8012DDA1C205B7D /* nUIImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = nUIImageCache.swift; sourceTree = "<group>"; };
+		F2F3CFCAFD17C4DE629DE01B92EDE87D /* nanoUI-iOS8.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanoUI-iOS8.0-umbrella.h"; sourceTree = "<group>"; };
+		F945D25290AC3F0F99708906ECBE1447 /* nanoUI-iOS8.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "nanoUI-iOS8.0.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0416F0C5E4A22D2D53FD477F4D53712C /* Frameworks */ = {
+		036F8E5D0AD510741C88B73E84F36E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091E355D72D4273B0DA10E54CC0DCFFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDB245C1D068FD04A7A3E205CAD9C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA721220AFEBE09B088247E2329BF32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AECBC6F894CDFA82712A35F5D56CB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B222C3C501B02A70D680D9F823975245 /* Foundation.framework in Frameworks */,
+				4E34084CFFF48F573835AC6F46A57B65 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70228DB99BC774629A6CDFD66E720C27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		083B58BFDB51DC67D0E9266CE6275FDE /* Frameworks */ = {
+		C00E1348FD2E8E8A5D31C3730EA898C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82B5D3CBABFBF49BF88183DEDC89F342 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCBEFD60B5C4DBD47C65DE422E745BAB /* Frameworks */ = {
+		C15DA47A3EE5BAC2EBFCD88208DEDA03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73C8B91B22B52DC3B839A611B11CB51D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F494775CE870B230D95D0B89428923EF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F36AE2CE321D39145B1245F8AE9016A /* Foundation.framework in Frameworks */,
-				7342513A5E36FBFB1E9D2C65F3BAAB68 /* UIKit.framework in Frameworks */,
+				E0639CEF72C8C932F6EB2C83350860DA /* Foundation.framework in Frameworks */,
+				8C54133C125E33BA551D6F7FFD3A5915 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B871E65C628DB6016B4A59F5BF230A8 /* Products */ = {
+		09A57DEB5B3D1301A60D83A82D98E438 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3183C12ABD68A5626CBF3D1D62C3FFFE /* nanoUI.bundle */,
-				2ABF15452406C4EA4458D51802093223 /* nanoUI.framework */,
-				3911242D79A67505F31AFB2B9BB17E5B /* Pods_nanoUI_Example.framework */,
-				F3E38801E614B683CA1E5F94E45FBFB1 /* Pods_nanoUI_Tests.framework */,
+				1B5CFF87FDAAED15FE7EAA3D360BA6B1 /* Classes */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
-				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		1AEF4CDF67AB16559B6862DFBDD66870 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3CC7667CAF01941415A2A9F1C98DEF09 /* Classes */,
-			);
+			name = Pod;
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		3CC7667CAF01941415A2A9F1C98DEF09 /* Classes */ = {
+		1B5CFF87FDAAED15FE7EAA3D360BA6B1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BCEEE778D5BD09662150F91EABDE4C89 /* Math.swift */,
-				AF2F27D4CFEF604C4EFD1166ACCE2B9D /* nUI.swift */,
-				9D314C8BFC0EDC07A08F3639FFF66290 /* nUIActivityView.swift */,
-				0BAFBF3454798EBD0F98085069F6C0B8 /* nUIButton.swift */,
-				B01479817E75B6A57AC917D16A07CAEF /* nUIContainerView.swift */,
-				AEE80DCBE95E6CD70D6A94E826C24792 /* nUIImageCache.swift */,
-				E2FA5B640AA4D7FD127F674EF19C0157 /* nUIImageView.swift */,
-				0E45341B389849BB49A561179AB3D841 /* nUIScrollView.swift */,
-				19FC7AF2CD340698B6BD6AC0810707D0 /* nUITableView.swift */,
-				E82E73244495BC5616AE7CD614A3AD3C /* nUIView.swift */,
+				E1CA1B397EDF719F5C5E0BA9BA705393 /* Math.swift */,
+				DAEAD0236434214F6238685B0BDA3EEF /* nUI.swift */,
+				EA6AD7308C0A55B84213629BB0D03715 /* nUIActivityView.swift */,
+				42801469D613B113442E156AF0A8B9F9 /* nUIButton.swift */,
+				87E4558CEB029DF95867F73BC18A5953 /* nUIContainerView.swift */,
+				EDDBEB403ECBFC9AD8012DDA1C205B7D /* nUIImageCache.swift */,
+				B7523EA2B1A151B5DADA38B34699572B /* nUIImageView.swift */,
+				D7BEE30F06EEDF7A9BFAB31D39D87F60 /* nUIScrollView.swift */,
+				4A2C8306BF9238958B8193E58ECC59F2 /* nUITableView.swift */,
+				77AA85194C70EEE2D75B60A44D934CD7 /* nUIView.swift */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18340F12838DEE43507667CC74401EB1 /* iOS */,
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		63A25D119FD59F0293262C42F4CC47A8 /* nanoUI */ = {
+		477721754695C41A316773E1027309A3 /* nanoUI */ = {
 			isa = PBXGroup;
 			children = (
-				1AEF4CDF67AB16559B6862DFBDD66870 /* Pod */,
-				C064B0B21770E4C9B54FB396DEE10EA6 /* Support Files */,
+				09A57DEB5B3D1301A60D83A82D98E438 /* Pod */,
+				9CA0240EC0688BC6A24979BD55219DB6 /* Support Files */,
 			);
 			name = nanoUI;
 			path = ../..;
@@ -202,12 +231,47 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				E57EC4C057FB01832F8B609C0257D896 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				0B871E65C628DB6016B4A59F5BF230A8 /* Products */,
+				9E8BC45C3FA385D5B7EDBD7743618B8E /* Products */,
 				ADC5ADA55E60A14316B03399832EBFD5 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9CA0240EC0688BC6A24979BD55219DB6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24A4E5E38369C9B1698F0019DEFBE092 /* Info.plist */,
+				A421374C9C8669B492CF483AAB468745 /* Info.plist */,
+				9063D49BA4C62EB1F0D0905CD5D34FB4 /* nanoUI-iOS8.0.modulemap */,
+				F945D25290AC3F0F99708906ECBE1447 /* nanoUI-iOS8.0.xcconfig */,
+				19490D335229AFEBAECB6C201373B6D4 /* nanoUI-iOS8.0-dummy.m */,
+				B8FF74449BF14C6E88EDE11CA305E84A /* nanoUI-iOS8.0-prefix.pch */,
+				F2F3CFCAFD17C4DE629DE01B92EDE87D /* nanoUI-iOS8.0-umbrella.h */,
+				417C287C651DD791AA969AA1799A8DFB /* nanoUI-iOS8.3.modulemap */,
+				65BE104D573CDD65F0D029182018DC52 /* nanoUI-iOS8.3.xcconfig */,
+				96D302084D829C53657229534BE5BB78 /* nanoUI-iOS8.3-dummy.m */,
+				25EFFC58E3D1934C2BDAA153C9E95B9E /* nanoUI-iOS8.3-prefix.pch */,
+				74DB384334C1B1205F5C906F6AFA0A6A /* nanoUI-iOS8.3-umbrella.h */,
+				0CB020C544CEE0D35E290539FBE81D26 /* ResourceBundle-nanoUI-Info.plist */,
+				26F2EC814E0F76F4F65BE7D477D4BDD9 /* ResourceBundle-nanoUI-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/nanoUI-iOS8.0";
+			sourceTree = "<group>";
+		};
+		9E8BC45C3FA385D5B7EDBD7743618B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E65F3A4FDCC775F31B759FF2B2630DD /* nanoUI.bundle */,
+				3E65F3A4FDCC775F31B759FF2B2630DD /* nanoUI.bundle */,
+				CD63E032E93A13207AB91A0480CD2B63 /* nanoUI.framework */,
+				368AD0CE9B1B8BC91AD7D62873ED5548 /* nanoUI.framework */,
+				4D56293493DF5CB925BB36C99A37099C /* Pods_nanoUI_Example.framework */,
+				23447BB2511BE7DE86E3375C4B180A2B /* Pods_nanoUI_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		ADC5ADA55E60A14316B03399832EBFD5 /* Targets Support Files */ = {
@@ -237,20 +301,6 @@
 			path = "Target Support Files/Pods-nanoUI_Example";
 			sourceTree = "<group>";
 		};
-		C064B0B21770E4C9B54FB396DEE10EA6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F42DE80D3D92CA357987BD18800D884 /* Info.plist */,
-				FC68EAB6CD238440937BD54B4CE2B564 /* nanoUI.modulemap */,
-				B20D63BB93CE97A9BD400331D098222D /* nanoUI.xcconfig */,
-				7F32B3CBA7A2CF3ADCE0AC675DDCAF48 /* nanoUI-dummy.m */,
-				D353616659DC11E9016242D80884C516 /* nanoUI-prefix.pch */,
-				AB3D839CBAD14CEE3CB7B14A5916FF47 /* nanoUI-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/nanoUI";
-			sourceTree = "<group>";
-		};
 		DFC326330862D6C4B3A4C18B61541F14 /* Pods-nanoUI_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,112 +322,165 @@
 		E57EC4C057FB01832F8B609C0257D896 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				63A25D119FD59F0293262C42F4CC47A8 /* nanoUI */,
+				477721754695C41A316773E1027309A3 /* nanoUI */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		80932C615B2AD547489D035D78F4E15C /* Headers */ = {
+		074320BB372A5599FF443FD40636016B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D4E473DBD979109FF95730B7EF30668 /* Pods-nanoUI_Tests-umbrella.h in Headers */,
+				C381A92F4DBD5EC021835DDF155AF721 /* Pods-nanoUI_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B4720D7C832EC5117640E5C44283A24 /* Headers */ = {
+		56FF7483EF59E19B1E5D40F1FBD9111D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33DEC3ADF3ED544A434F2C77C77A6894 /* nanoUI-umbrella.h in Headers */,
+				468E386187C12F64631E74AE25AAD91E /* nanoUI-iOS8.0-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9F2DB20868085633B8577E0356D7B0E /* Headers */ = {
+		5B4407D6C1E5BB7AE6792F44C0A4E047 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6044003EC47AFAF6193C12FE0D8BE790 /* Pods-nanoUI_Example-umbrella.h in Headers */,
+				72E1505D67E3AFCEF1302B0C7C4A7346 /* Pods-nanoUI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D697436B355E41FF48DD7C64810E129F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E60213B0FBE5FBE28A7C4C01A5F8232 /* nanoUI-iOS8.3-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0632CEE4B533ECDA5EB763A04C664C7D /* Pods-nanoUI_Tests */ = {
+		0628D3B16049C93804B2458A48AF9574 /* nanoUI-iOS8.3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86B45738817445B56EC94B7307B3B224 /* Build configuration list for PBXNativeTarget "Pods-nanoUI_Tests" */;
+			buildConfigurationList = F49A3AEBB780A01A95069C45B9E0F12D /* Build configuration list for PBXNativeTarget "nanoUI-iOS8.3" */;
 			buildPhases = (
-				C6D174745754BBF4AF1B41C22C4FF45F /* Sources */,
-				DCBEFD60B5C4DBD47C65DE422E745BAB /* Frameworks */,
-				80932C615B2AD547489D035D78F4E15C /* Headers */,
+				F801333B045859D677E55C0CB58500CA /* Sources */,
+				C15DA47A3EE5BAC2EBFCD88208DEDA03 /* Frameworks */,
+				8527D0481D6D52FE51B407EAF04A1F39 /* Resources */,
+				D697436B355E41FF48DD7C64810E129F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F8B4214B9CD4124344DDB7EEE9255D22 /* PBXTargetDependency */,
+				5351919919E043EA5FABA7CFE61EF97E /* PBXTargetDependency */,
 			);
-			name = "Pods-nanoUI_Tests";
-			productName = "Pods-nanoUI_Tests";
-			productReference = F3E38801E614B683CA1E5F94E45FBFB1 /* Pods_nanoUI_Tests.framework */;
+			name = "nanoUI-iOS8.3";
+			productName = "nanoUI-iOS8.3";
+			productReference = 368AD0CE9B1B8BC91AD7D62873ED5548 /* nanoUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4A8FD8E578BB5366A6B91B82B544DDB6 /* nanoUI-nanoUI */ = {
+		636C41499C431C3A271A061967C3C61D /* nanoUI-iOS8.3-nanoUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A923D864A72D332B99E8F32D770F383 /* Build configuration list for PBXNativeTarget "nanoUI-nanoUI" */;
+			buildConfigurationList = 7E4BDEA540D39C25A89DD793C11073AE /* Build configuration list for PBXNativeTarget "nanoUI-iOS8.3-nanoUI" */;
 			buildPhases = (
-				E34C2A4BE1E386DDF0191A16FA4BB69D /* Sources */,
-				0416F0C5E4A22D2D53FD477F4D53712C /* Frameworks */,
-				D7E4AE5B326FD3AB3E34CB5E235C6444 /* Resources */,
+				F3F7C571A2D760395EA774EF661669F1 /* Sources */,
+				C00E1348FD2E8E8A5D31C3730EA898C4 /* Frameworks */,
+				88E413BA88E34666C95F8B21A28F78B8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "nanoUI-nanoUI";
-			productName = "nanoUI-nanoUI";
-			productReference = 3183C12ABD68A5626CBF3D1D62C3FFFE /* nanoUI.bundle */;
+			name = "nanoUI-iOS8.3-nanoUI";
+			productName = "nanoUI-iOS8.3-nanoUI";
+			productReference = 3E65F3A4FDCC775F31B759FF2B2630DD /* nanoUI.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		7670D8A8493CECBA4695997979696991 /* Pods-nanoUI_Example */ = {
+		A53D46B60A12B4B5AA34F72A2BD35698 /* nanoUI-iOS8.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 978376190145918AF7FAEF370AA596AD /* Build configuration list for PBXNativeTarget "Pods-nanoUI_Example" */;
+			buildConfigurationList = 7C35AF245A8C9BF050B8EB3D4F667CA1 /* Build configuration list for PBXNativeTarget "nanoUI-iOS8.0" */;
 			buildPhases = (
-				E3C4A5C74536986D9054D76A466FEAB6 /* Sources */,
-				083B58BFDB51DC67D0E9266CE6275FDE /* Frameworks */,
-				A9F2DB20868085633B8577E0356D7B0E /* Headers */,
+				AA43B7E1092599DE61C4845E88CDFDC9 /* Sources */,
+				4AECBC6F894CDFA82712A35F5D56CB53 /* Frameworks */,
+				2CE5BC70A8A766E1E8092ABB729E6F37 /* Resources */,
+				56FF7483EF59E19B1E5D40F1FBD9111D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D69C9F1DC5327123B40CA699B6379E7C /* PBXTargetDependency */,
+				9CAB66B7426EAF35EE5219ED8F5BD4D5 /* PBXTargetDependency */,
+			);
+			name = "nanoUI-iOS8.0";
+			productName = "nanoUI-iOS8.0";
+			productReference = CD63E032E93A13207AB91A0480CD2B63 /* nanoUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEBD70B368566AF7D9FE3885ADAEC9DE /* Pods-nanoUI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8927473FE3947D5D1F7FB9D4DE1F2CF6 /* Build configuration list for PBXNativeTarget "Pods-nanoUI_Example" */;
+			buildPhases = (
+				4EC27085EB1C209838AE641CC49665AE /* Sources */,
+				036F8E5D0AD510741C88B73E84F36E6D /* Frameworks */,
+				5B4407D6C1E5BB7AE6792F44C0A4E047 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878F7D5E4AF53225558462EF97911681 /* PBXTargetDependency */,
 			);
 			name = "Pods-nanoUI_Example";
 			productName = "Pods-nanoUI_Example";
-			productReference = 3911242D79A67505F31AFB2B9BB17E5B /* Pods_nanoUI_Example.framework */;
+			productReference = 4D56293493DF5CB925BB36C99A37099C /* Pods_nanoUI_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B02C5EECEFAEE69E311751352B547A55 /* nanoUI */ = {
+		BEC1416FC1B7BB350598D23DAB95EC87 /* Pods-nanoUI_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C41B6400945C43E51B82C0FD78EB8EC1 /* Build configuration list for PBXNativeTarget "nanoUI" */;
+			buildConfigurationList = E7C5420293BF8ADAF6BC0DD56303D184 /* Build configuration list for PBXNativeTarget "Pods-nanoUI_Tests" */;
 			buildPhases = (
-				DDA5F4E52AE2D9DDE72B01A7A460E175 /* Sources */,
-				F494775CE870B230D95D0B89428923EF /* Frameworks */,
-				F958358724E2CBAE778D21390946746A /* Resources */,
-				8B4720D7C832EC5117640E5C44283A24 /* Headers */,
+				7CB3AB3B0CA982AE66EAFB3BCF7B372C /* Sources */,
+				2EDB245C1D068FD04A7A3E205CAD9C98 /* Frameworks */,
+				074320BB372A5599FF443FD40636016B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ADAC4E36935D429DEFED46D3423435A1 /* PBXTargetDependency */,
+				E1E649144A32EC49BDAD678F963E0DDF /* PBXTargetDependency */,
 			);
-			name = nanoUI;
-			productName = nanoUI;
-			productReference = 2ABF15452406C4EA4458D51802093223 /* nanoUI.framework */;
+			name = "Pods-nanoUI_Tests";
+			productName = "Pods-nanoUI_Tests";
+			productReference = 23447BB2511BE7DE86E3375C4B180A2B /* Pods_nanoUI_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		CB0C11ADA9D4BFD9093748039B30EFA6 /* nanoUI-iOS8.0-nanoUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63DF883A55381AB7A8FE0902588D5EA /* Build configuration list for PBXNativeTarget "nanoUI-iOS8.0-nanoUI" */;
+			buildPhases = (
+				9A949A3D914F683124BD935D25CC38C5 /* Sources */,
+				70228DB99BC774629A6CDFD66E720C27 /* Frameworks */,
+				4E2ADBA86FDD81DCB513EBBA0A11158C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nanoUI-iOS8.0-nanoUI";
+			productName = "nanoUI-iOS8.0-nanoUI";
+			productReference = 3E65F3A4FDCC775F31B759FF2B2630DD /* nanoUI.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -385,7 +488,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -396,106 +499,155 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0B871E65C628DB6016B4A59F5BF230A8 /* Products */;
+			productRefGroup = 9E8BC45C3FA385D5B7EDBD7743618B8E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B02C5EECEFAEE69E311751352B547A55 /* nanoUI */,
-				4A8FD8E578BB5366A6B91B82B544DDB6 /* nanoUI-nanoUI */,
-				7670D8A8493CECBA4695997979696991 /* Pods-nanoUI_Example */,
-				0632CEE4B533ECDA5EB763A04C664C7D /* Pods-nanoUI_Tests */,
+				A53D46B60A12B4B5AA34F72A2BD35698 /* nanoUI-iOS8.0 */,
+				CB0C11ADA9D4BFD9093748039B30EFA6 /* nanoUI-iOS8.0-nanoUI */,
+				0628D3B16049C93804B2458A48AF9574 /* nanoUI-iOS8.3 */,
+				636C41499C431C3A271A061967C3C61D /* nanoUI-iOS8.3-nanoUI */,
+				BEBD70B368566AF7D9FE3885ADAEC9DE /* Pods-nanoUI_Example */,
+				BEC1416FC1B7BB350598D23DAB95EC87 /* Pods-nanoUI_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D7E4AE5B326FD3AB3E34CB5E235C6444 /* Resources */ = {
+		2CE5BC70A8A766E1E8092ABB729E6F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E653C152513676C8EB0C86F647E7A56A /* nanoUI.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E2ADBA86FDD81DCB513EBBA0A11158C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F958358724E2CBAE778D21390946746A /* Resources */ = {
+		8527D0481D6D52FE51B407EAF04A1F39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37206300EBC7E34674997E34235C9EBB /* nanoUI.bundle in Resources */,
+				D3493CF6264360896A03ECD7B8BB5166 /* nanoUI.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E413BA88E34666C95F8B21A28F78B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C6D174745754BBF4AF1B41C22C4FF45F /* Sources */ = {
+		4EC27085EB1C209838AE641CC49665AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9FA38689A379171474A624047236C91 /* Pods-nanoUI_Tests-dummy.m in Sources */,
+				06FB2B1D5B95DF902C605A283AF97413 /* Pods-nanoUI_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDA5F4E52AE2D9DDE72B01A7A460E175 /* Sources */ = {
+		7CB3AB3B0CA982AE66EAFB3BCF7B372C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AEEC1BA65A2E85AF61F094E91E8A3D4 /* Math.swift in Sources */,
-				E480BAAE05E5280587FAC16291676E97 /* nanoUI-dummy.m in Sources */,
-				B9AA5B0D3107DCD5A6ADB7022D64B75A /* nUI.swift in Sources */,
-				81BBBAC7B5F05BF88883D2E7E2A13B7B /* nUIActivityView.swift in Sources */,
-				0C8BA2FC2B23354935F0488AD48FAD53 /* nUIButton.swift in Sources */,
-				B966E5E2A4E0A88E563F17B3BB68EBE7 /* nUIContainerView.swift in Sources */,
-				A74517DE21AC617E1E43453F14159D75 /* nUIImageCache.swift in Sources */,
-				F3AE21174FABBE3CB0B9B60A31BDC47B /* nUIImageView.swift in Sources */,
-				59D7B96115D5AA2A712BA1D660EB29A4 /* nUIScrollView.swift in Sources */,
-				5041742330B56465E4E5C405FB407E42 /* nUITableView.swift in Sources */,
-				C2C2EA8D7030FA6684B2CA04E1BEA201 /* nUIView.swift in Sources */,
+				1D68D21B9F22E7439174D74F03DF7101 /* Pods-nanoUI_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E34C2A4BE1E386DDF0191A16FA4BB69D /* Sources */ = {
+		9A949A3D914F683124BD935D25CC38C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3C4A5C74536986D9054D76A466FEAB6 /* Sources */ = {
+		AA43B7E1092599DE61C4845E88CDFDC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD3F28F7A5911DD1EBE1F8E6C49E1D97 /* Pods-nanoUI_Example-dummy.m in Sources */,
+				E303D1F6619539A4F40B3846A7D40683 /* Math.swift in Sources */,
+				76BC7E1476A02D72DC8F810BA1927CD2 /* nanoUI-iOS8.0-dummy.m in Sources */,
+				5CFC0CA404DFF9874CB60665FDDB4FAE /* nUI.swift in Sources */,
+				B087C2FBFC20CEB93E27E279B7CB0B7B /* nUIActivityView.swift in Sources */,
+				0D2D1A6A07C7AA3A1AEFEB5B8FE32140 /* nUIButton.swift in Sources */,
+				B181897881C217D26511A24C5D444201 /* nUIContainerView.swift in Sources */,
+				42B68165A09BC4D2DAAC49894A9D6868 /* nUIImageCache.swift in Sources */,
+				12DBFC5AF2FCD52C292096CC3E7906C5 /* nUIImageView.swift in Sources */,
+				CAB1C82C7F4CE2B2A1D5C98436912391 /* nUIScrollView.swift in Sources */,
+				A9125EF7A2241D863776458C9FB7F6E7 /* nUITableView.swift in Sources */,
+				213D5C75822008041F60FED1593E60DF /* nUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F7C571A2D760395EA774EF661669F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F801333B045859D677E55C0CB58500CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC942503E0469DC2BA943A0B6DA883D /* Math.swift in Sources */,
+				B22D7D5EC960F42EA4CAF49995302B7E /* nanoUI-iOS8.3-dummy.m in Sources */,
+				DA51DF28B61E2F976CAAA87C21F9BAA6 /* nUI.swift in Sources */,
+				D279D8660D7EDC82D1C85604ADC56137 /* nUIActivityView.swift in Sources */,
+				2C2A22409AC8BA6C22496673FD1CC127 /* nUIButton.swift in Sources */,
+				711B443703E78DA7C853DB36F4FEB784 /* nUIContainerView.swift in Sources */,
+				BAE369F398CEFFCBBAECC88E6AFC4A83 /* nUIImageCache.swift in Sources */,
+				EB273071F05D702B103BC6CC8A06C3DA /* nUIImageView.swift in Sources */,
+				21774033333C89440BD256254A46CB51 /* nUIScrollView.swift in Sources */,
+				462D9C4BC7FDAE0DC2F2DDF3E988C51C /* nUITableView.swift in Sources */,
+				DFEA177FABF98B4D989BEE2A861942E2 /* nUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ADAC4E36935D429DEFED46D3423435A1 /* PBXTargetDependency */ = {
+		5351919919E043EA5FABA7CFE61EF97E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "nanoUI-nanoUI";
-			target = 4A8FD8E578BB5366A6B91B82B544DDB6 /* nanoUI-nanoUI */;
-			targetProxy = 99C5574FE1B808B3976C2253B3EF202D /* PBXContainerItemProxy */;
+			name = "nanoUI-iOS8.3-nanoUI";
+			target = 636C41499C431C3A271A061967C3C61D /* nanoUI-iOS8.3-nanoUI */;
+			targetProxy = 494C9E440CE82216FC51B5255BC56C0D /* PBXContainerItemProxy */;
 		};
-		D69C9F1DC5327123B40CA699B6379E7C /* PBXTargetDependency */ = {
+		878F7D5E4AF53225558462EF97911681 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = nanoUI;
-			target = B02C5EECEFAEE69E311751352B547A55 /* nanoUI */;
-			targetProxy = ED2D1B392021FAE2762DF9A660CD1114 /* PBXContainerItemProxy */;
+			name = "nanoUI-iOS8.0";
+			target = A53D46B60A12B4B5AA34F72A2BD35698 /* nanoUI-iOS8.0 */;
+			targetProxy = 5A88A88E5A257A28FE74AB4942FF967E /* PBXContainerItemProxy */;
 		};
-		F8B4214B9CD4124344DDB7EEE9255D22 /* PBXTargetDependency */ = {
+		9CAB66B7426EAF35EE5219ED8F5BD4D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = nanoUI;
-			target = B02C5EECEFAEE69E311751352B547A55 /* nanoUI */;
-			targetProxy = 0EE35B8CEDF4579748C805F31998C65B /* PBXContainerItemProxy */;
+			name = "nanoUI-iOS8.0-nanoUI";
+			target = CB0C11ADA9D4BFD9093748039B30EFA6 /* nanoUI-iOS8.0-nanoUI */;
+			targetProxy = 4D307D2E130FEC66597AAFD3913BD792 /* PBXContainerItemProxy */;
+		};
+		E1E649144A32EC49BDAD678F963E0DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "nanoUI-iOS8.3";
+			target = 0628D3B16049C93804B2458A48AF9574 /* nanoUI-iOS8.3 */;
+			targetProxy = 4DAC25064CA646991F3D3A3D57282C36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		052A17875CB827423D627183396CEB60 /* Release */ = {
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -509,247 +661,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2F80311DA5ECD4C6002C9058F0067AAE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECC8A3459BA604BC13E6C322F50FA1B6 /* Pods-nanoUI_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-nanoUI_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-nanoUI_Tests/Pods-nanoUI_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_nanoUI_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		334EF96359E127EAFE721C6DB37AAA44 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B20D63BB93CE97A9BD400331D098222D /* nanoUI.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = nanoUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		4E88E5C5F39EF118B161FE8820534F49 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B20D63BB93CE97A9BD400331D098222D /* nanoUI.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/nanoUI/nanoUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/nanoUI/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/nanoUI/nanoUI.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = nanoUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5071C9710C307A21F8C3BE0D119C54DF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F17338B0A51E6BB6B1034B71CD6855B /* Pods-nanoUI_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-nanoUI_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-nanoUI_Tests/Pods-nanoUI_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_nanoUI_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7232B9DADCB4FE233F98294C9A54BFC7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B20D63BB93CE97A9BD400331D098222D /* nanoUI.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/nanoUI/nanoUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/nanoUI/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/nanoUI/nanoUI.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = nanoUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		875526543A626E7E61789E3B67A3C4DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6E97ED20EFA90AE3701C4C7AB8FD5AE /* Pods-nanoUI_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-nanoUI_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-nanoUI_Example/Pods-nanoUI_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_nanoUI_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		913EC5499CAA4D4CB7BCAF01D1ED6A53 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B20D63BB93CE97A9BD400331D098222D /* nanoUI.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = nanoUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		9ECC7108D0A2502E341F6E55A92C90F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6669017E9EAED48A9AC41FC01027A949 /* Pods-nanoUI_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-nanoUI_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-nanoUI_Example/Pods-nanoUI_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_nanoUI_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -762,55 +681,462 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
+		0693E363CA1C59BB0DB4A1C995C8CBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65BE104D573CDD65F0D029182018DC52 /* nanoUI-iOS8.3.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/nanoUI-iOS8.3/nanoUI-iOS8.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanoUI-iOS8.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanoUI-iOS8.3/nanoUI-iOS8.3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = nanoUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09F122772D552B7AEE0E514029445443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F945D25290AC3F0F99708906ECBE1447 /* nanoUI-iOS8.0.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/nanoUI-iOS8.0";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/nanoUI-iOS8.0/ResourceBundle-nanoUI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = nanoUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		292F5BBA9869620778989EF70EC53E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E97ED20EFA90AE3701C4C7AB8FD5AE /* Pods-nanoUI_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-nanoUI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nanoUI_Example/Pods-nanoUI_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_nanoUI_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D7876866AA8F54927200C9EDA2E6465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F945D25290AC3F0F99708906ECBE1447 /* nanoUI-iOS8.0.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/nanoUI-iOS8.0";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/nanoUI-iOS8.0/ResourceBundle-nanoUI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = nanoUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3395F2F0EC56719B97BD4EF2F386371F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F945D25290AC3F0F99708906ECBE1447 /* nanoUI-iOS8.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/nanoUI-iOS8.0/nanoUI-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanoUI-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanoUI-iOS8.0/nanoUI-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = nanoUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A5573B0523DBE3AD5EA238A04EDCD7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6669017E9EAED48A9AC41FC01027A949 /* Pods-nanoUI_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-nanoUI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nanoUI_Example/Pods-nanoUI_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_nanoUI_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A42BF0FCF6BEDDE92BB619AAFD59C5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F945D25290AC3F0F99708906ECBE1447 /* nanoUI-iOS8.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/nanoUI-iOS8.0/nanoUI-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanoUI-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanoUI-iOS8.0/nanoUI-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = nanoUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C220679C4AD5D4963BBDA08D0E704A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F17338B0A51E6BB6B1034B71CD6855B /* Pods-nanoUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-nanoUI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nanoUI_Tests/Pods-nanoUI_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_nanoUI_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC29F08D673A0CB2ABD1087338858622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65BE104D573CDD65F0D029182018DC52 /* nanoUI-iOS8.3.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/nanoUI-iOS8.3/nanoUI-iOS8.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanoUI-iOS8.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanoUI-iOS8.3/nanoUI-iOS8.3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = nanoUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F166B0E6B4EC2C4B423047E644926CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65BE104D573CDD65F0D029182018DC52 /* nanoUI-iOS8.3.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/nanoUI-iOS8.3";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/nanoUI-iOS8.3/ResourceBundle-nanoUI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = nanoUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F45EEA021EC10F9A078400492DB80F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65BE104D573CDD65F0D029182018DC52 /* nanoUI-iOS8.3.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/nanoUI-iOS8.3";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/nanoUI-iOS8.3/ResourceBundle-nanoUI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = nanoUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F4D14A6EBE022EE77C5A6FE0102F9233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECC8A3459BA604BC13E6C322F50FA1B6 /* Pods-nanoUI_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-nanoUI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nanoUI_Tests/Pods-nanoUI_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_nanoUI_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A923D864A72D332B99E8F32D770F383 /* Build configuration list for PBXNativeTarget "nanoUI-nanoUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				334EF96359E127EAFE721C6DB37AAA44 /* Debug */,
-				913EC5499CAA4D4CB7BCAF01D1ED6A53 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
-				052A17875CB827423D627183396CEB60 /* Release */,
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86B45738817445B56EC94B7307B3B224 /* Build configuration list for PBXNativeTarget "Pods-nanoUI_Tests" */ = {
+		7C35AF245A8C9BF050B8EB3D4F667CA1 /* Build configuration list for PBXNativeTarget "nanoUI-iOS8.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5071C9710C307A21F8C3BE0D119C54DF /* Debug */,
-				2F80311DA5ECD4C6002C9058F0067AAE /* Release */,
+				A42BF0FCF6BEDDE92BB619AAFD59C5C3 /* Debug */,
+				3395F2F0EC56719B97BD4EF2F386371F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		978376190145918AF7FAEF370AA596AD /* Build configuration list for PBXNativeTarget "Pods-nanoUI_Example" */ = {
+		7E4BDEA540D39C25A89DD793C11073AE /* Build configuration list for PBXNativeTarget "nanoUI-iOS8.3-nanoUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				875526543A626E7E61789E3B67A3C4DB /* Debug */,
-				9ECC7108D0A2502E341F6E55A92C90F3 /* Release */,
+				F166B0E6B4EC2C4B423047E644926CB2 /* Debug */,
+				F45EEA021EC10F9A078400492DB80F33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C41B6400945C43E51B82C0FD78EB8EC1 /* Build configuration list for PBXNativeTarget "nanoUI" */ = {
+		8927473FE3947D5D1F7FB9D4DE1F2CF6 /* Build configuration list for PBXNativeTarget "Pods-nanoUI_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E88E5C5F39EF118B161FE8820534F49 /* Debug */,
-				7232B9DADCB4FE233F98294C9A54BFC7 /* Release */,
+				292F5BBA9869620778989EF70EC53E1B /* Debug */,
+				7A5573B0523DBE3AD5EA238A04EDCD7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63DF883A55381AB7A8FE0902588D5EA /* Build configuration list for PBXNativeTarget "nanoUI-iOS8.0-nanoUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F122772D552B7AEE0E514029445443 /* Debug */,
+				2D7876866AA8F54927200C9EDA2E6465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C5420293BF8ADAF6BC0DD56303D184 /* Build configuration list for PBXNativeTarget "Pods-nanoUI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C220679C4AD5D4963BBDA08D0E704A16 /* Debug */,
+				F4D14A6EBE022EE77C5A6FE0102F9233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49A3AEBB780A01A95069C45B9E0F12D /* Build configuration list for PBXNativeTarget "nanoUI-iOS8.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0693E363CA1C59BB0DB4A1C995C8CBE0 /* Debug */,
+				CC29F08D673A0CB2ABD1087338858622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

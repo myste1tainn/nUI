@@ -8,11 +8,11 @@
 
 import UIKit
 
-public class nUIScrollView: UIScrollView {
+open class nUIScrollView: UIScrollView {
     
-    @IBInspectable public var useIntrinsicContentSize: Bool = true
-    public var layoutHeightConstraint: NSLayoutConstraint?
-    public var layoutWidthConstraint: NSLayoutConstraint?
+    @IBInspectable open var useIntrinsicContentSize: Bool = true
+    open var layoutHeightConstraint: NSLayoutConstraint?
+    open var layoutWidthConstraint: NSLayoutConstraint?
     
     /*
     // Only override drawRect: if you perform custom drawing.
@@ -22,13 +22,13 @@ public class nUIScrollView: UIScrollView {
     }
     */
     
-    public override func intrinsicContentSize() -> CGSize {
+    open override var intrinsicContentSize : CGSize {
         if useIntrinsicContentSize {
-            return super.intrinsicContentSize()
+            return super.intrinsicContentSize
         } else {
             self.invalidateIntrinsicContentSize()
             self.layoutIfNeeded()
-            let size = CGSizeMake(UIViewNoIntrinsicMetric, self.contentSize.height)
+            let size = CGSize(width: UIViewNoIntrinsicMetric, height: self.contentSize.height)
             return size
         }
     }

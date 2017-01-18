@@ -1,14 +1,16 @@
 PODS:
-  - nanoUI (0.1.2)
+  - nanoUI (0.1.5)
 
 DEPENDENCIES:
   - nanoUI (from `../`)
 
 EXTERNAL SOURCES:
   nanoUI:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  nanoUI: c63649238f34ed8460c1fe2142505db5e4bf550c
+  nanoUI: 137a7a7016ac09965ae8cc9557679cc21cf4e05a
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 0a0d7200b34fd87bdabe86f8158087de4b4d0a09
+
+COCOAPODS: 1.2.0.beta.1

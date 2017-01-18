@@ -1,10 +1,18 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'nanoUI_Example', :exclusive => true do
+target 'nanoUI_Example' do
   pod 'nanoUI', :path => '../'
 end
 
-target 'nanoUI_Tests', :exclusive => true do
+target 'nanoUI_Tests' do
   pod 'nanoUI', :path => '../'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['SWIFT_VERSION'] = '3.0'
+    end
+  end
 end

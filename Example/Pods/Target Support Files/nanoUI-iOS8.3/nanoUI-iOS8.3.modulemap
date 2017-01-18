@@ -1,5 +1,5 @@
 framework module nanoUI {
-  umbrella header "nanoUI-umbrella.h"
+  umbrella header "nanoUI-iOS8.3-umbrella.h"
 
   export *
   module * { export * }

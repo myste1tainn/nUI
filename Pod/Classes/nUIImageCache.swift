@@ -8,29 +8,29 @@
 
 import UIKit
 
-public class nUIImageCache: NSObject {
+open class nUIImageCache: NSObject {
     
-    var cache = NSCache()
+    var cache = NSCache<AnyObject, AnyObject>()
     
-    private static var DEFAULT_CACHE = nUIImageCache()
-    public class func defaultCache() -> nUIImageCache {
+    fileprivate static var DEFAULT_CACHE = nUIImageCache()
+    open class func defaultCache() -> nUIImageCache {
         return nUIImageCache.DEFAULT_CACHE
     }
     
-    public class func imageForURL(url: NSURL) -> UIImage? {
+    open class func imageForURL(_ url: URL) -> UIImage? {
         return nUIImageCache.defaultCache().imageForURL(url)
     }
     
-    public func imageForURL(url: NSURL) -> UIImage? {
-        return cache.objectForKey(url) as? UIImage
+    open func imageForURL(_ url: URL) -> UIImage? {
+        return cache.object(forKey: url as AnyObject) as? UIImage
     }
     
-    public class func cacheImage(image: UIImage, withURL url: NSURL) {
+    open class func cacheImage(_ image: UIImage, withURL url: URL) {
         nUIImageCache.defaultCache().cacheImage(image, withURL: url)
     }
     
-    public func cacheImage(image: UIImage, withURL url: NSURL) {
-        cache.setObject(image, forKey: url)
+    open func cacheImage(_ image: UIImage, withURL url: URL) {
+        cache.setObject(image, forKey: url as AnyObject)
     }
     
     

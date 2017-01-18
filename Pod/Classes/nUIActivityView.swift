@@ -15,14 +15,14 @@ public protocol nUIActivityIndicator: class {
 
 public enum nUIActivityViewStyle: Int {
     /// Dark translucent background
-    case Dark
+    case dark
     /// White translucent background
-    case Light
+    case light
 }
 
-public class nUIActivityViewOverlay: UIView, nUIActivityIndicator {
+open class nUIActivityViewOverlay: UIView, nUIActivityIndicator {
     
-    override public var frame: CGRect {
+    override open var frame: CGRect {
         didSet {
             if self.subviews.count > 0 {
                 self.subviews[0].frame = self.frame
@@ -30,28 +30,28 @@ public class nUIActivityViewOverlay: UIView, nUIActivityIndicator {
         }
     }
     
-    public func startAnimating() {
+    open func startAnimating() {
         (self.subviews[0] as! UIActivityIndicatorView).startAnimating()
     }
     
-    public func stopAnimating() {
+    open func stopAnimating() {
         (self.subviews[0] as! UIActivityIndicatorView).stopAnimating()
     }
     
 }
 
-public class nUIActivityView: UIActivityIndicatorView, nUIActivityIndicator {
+open class nUIActivityView: UIActivityIndicatorView, nUIActivityIndicator {
     
-    public class func activityViewOverView(view: UIView, withStyle style: nUIActivityViewStyle = .Dark) -> nUIActivityViewOverlay {
+    open class func activityViewOverView(_ view: UIView, withStyle style: nUIActivityViewStyle = .dark) -> nUIActivityViewOverlay {
         let overlay = nUIActivityViewOverlay(frame: view.bounds)
         let indicator = nUIActivityView(frame: view.bounds)
         
         overlay.addSubview(indicator)
-        if style == .Dark {
+        if style == .dark {
             overlay.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.8)
         } else {
             overlay.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.8)
-            indicator.activityIndicatorViewStyle = .Gray
+            indicator.activityIndicatorViewStyle = .gray
         }
         
         return overlay

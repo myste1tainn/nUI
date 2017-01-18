@@ -16,29 +16,29 @@ public extension UIView {
     
     public var activityIndicatorAnimate: Bool {
         get {
-            let ud = NSUserDefaults.standardUserDefaults()
-            if let obj = ud.objectForKey(UIView.NUI_ACTIVITY_INDICATOR_ANIMATE_KEY) {
-                return obj.boolValue
+            let ud = UserDefaults.standard
+            if let obj = ud.object(forKey: UIView.NUI_ACTIVITY_INDICATOR_ANIMATE_KEY) {
+                return (obj as AnyObject).boolValue
             } else  {
                 return true
             }
         }
         set {
-            let ud = NSUserDefaults.standardUserDefaults()
-            ud.setBool(newValue, forKey: UIView.NUI_ACTIVITY_INDICATOR_ANIMATE_KEY)
+            let ud = UserDefaults.standard
+            ud.set(newValue, forKey: UIView.NUI_ACTIVITY_INDICATOR_ANIMATE_KEY)
             ud.synchronize()
         }
     }
     
     public var activityViewStyle: nUIActivityViewStyle {
         get {
-            let ud = NSUserDefaults.standardUserDefaults()
-            let val = nUIActivityViewStyle(rawValue: ud.integerForKey(UIView.NUI_ACTIVITY_INDICATOR_STYLE_KEY))
+            let ud = UserDefaults.standard
+            let val = nUIActivityViewStyle(rawValue: ud.integer(forKey: UIView.NUI_ACTIVITY_INDICATOR_STYLE_KEY))
             return val!
         }
         set {
-            let ud = NSUserDefaults.standardUserDefaults()
-            ud.setInteger(newValue.rawValue, forKey: UIView.NUI_ACTIVITY_INDICATOR_STYLE_KEY)
+            let ud = UserDefaults.standard
+            ud.set(newValue.rawValue, forKey: UIView.NUI_ACTIVITY_INDICATOR_STYLE_KEY)
             ud.synchronize()
         }
     }
@@ -62,12 +62,12 @@ public extension UIView {
             self.activityView = nUIActivityView.activityViewOverView(self, withStyle: self.activityViewStyle)
         }
         let view = self.activityView as? UIView
-        self.bringSubviewToFront(view!)
+        self.bringSubview(toFront: view!)
         view!.frame = self.bounds
         view!.alpha = 0
         if self.activityIndicatorAnimate
         {
-            UIView.animateWithDuration(0.3,
+            UIView.animate(withDuration: 0.3,
                 animations:
                 { () -> Void in
                     view!.alpha = 1
@@ -92,7 +92,7 @@ public extension UIView {
                 
                 // Begin animation
                 view.layer.opacity = 1
-                UIView.animateWithDuration(0.3,
+                UIView.animate(withDuration: 0.3,
                     animations:
                     { () -> Void in
                         view.layer.opacity = 0
@@ -113,14 +113,14 @@ public extension UIView {
 }
 
 @IBDesignable
-public class nUIView: UIView {
+open class nUIView: UIView {
     
     // MARK: - Designable view manipulation
-    @IBInspectable public var circle: Bool = false
-    @IBInspectable public var borderRadiusAsRatio: Bool = false
-    @IBInspectable public var borderColor: UIColor = UIColor.clearColor()
-    @IBInspectable public var borderWidth: CGFloat = 0.0
-    @IBInspectable public var borderRadius: CGFloat = 0.0
+    @IBInspectable open var circle: Bool = false
+    @IBInspectable open var borderRadiusAsRatio: Bool = false
+    @IBInspectable open var borderColor: UIColor = UIColor.clear
+    @IBInspectable open var borderWidth: CGFloat = 0.0
+    @IBInspectable open var borderRadius: CGFloat = 0.0
     
     required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
@@ -130,8 +130,8 @@ public class nUIView: UIView {
         super.init(frame: frame)
     }
     
-    public override func drawRect(rect: CGRect) {
-        super.drawRect(rect)
+    open override func draw(_ rect: CGRect) {
+        super.draw(rect)
         
         if circle {
             let smallerOne = Math.smallerOneA(frame.size.width, orB: frame.size.height)
@@ -143,7 +143,7 @@ public class nUIView: UIView {
         {
             let cornerRadius = borderRadiusAsRatio ? frame.size.height * borderRadius : borderRadius
             layer.cornerRadius = cornerRadius
-            layer.borderColor = borderColor.CGColor
+            layer.borderColor = borderColor.cgColor
             layer.borderWidth = borderWidth
             clipsToBounds = true
         }

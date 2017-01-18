@@ -9,15 +9,15 @@
 import UIKit
 
 public protocol nUIImageViewDelegate {
-    func imageView(imageView: nUIImageView, willSetImage image: UIImage)
-    func imageView(imageView: nUIImageView, didSetImage image: UIImage)
+    func imageView(_ imageView: nUIImageView, willSetImage image: UIImage)
+    func imageView(_ imageView: nUIImageView, didSetImage image: UIImage)
 }
 
 @IBDesignable
-public class nUIImageView: UIImageView {
+open class nUIImageView: UIImageView {
 
-    public var delegate: nUIImageViewDelegate?
-    public override var image: UIImage? {
+    open var delegate: nUIImageViewDelegate?
+    open override var image: UIImage? {
         didSet {
             guard
                 let _ = delegate,
@@ -29,11 +29,11 @@ public class nUIImageView: UIImageView {
     }
     
     // MARK: - Designable view manipulation
-    @IBInspectable public var circle: Bool = false
-    @IBInspectable public var borderRadiusAsRatio: Bool = false
-    @IBInspectable public var borderColor: UIColor = UIColor.clearColor()
-    @IBInspectable public var borderWidth: CGFloat = 0.0
-    @IBInspectable public var borderRadius: CGFloat = 0.0
+    @IBInspectable open var circle: Bool = false
+    @IBInspectable open var borderRadiusAsRatio: Bool = false
+    @IBInspectable open var borderColor: UIColor = UIColor.clear
+    @IBInspectable open var borderWidth: CGFloat = 0.0
+    @IBInspectable open var borderRadius: CGFloat = 0.0
     
     required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
@@ -43,8 +43,8 @@ public class nUIImageView: UIImageView {
         super.init(frame: frame)
     }
     
-    public override func drawRect(rect: CGRect) {
-        super.drawRect(rect)
+    open override func draw(_ rect: CGRect) {
+        super.draw(rect)
         
         if circle {
             let smallerOne = Math.smallerOneA(frame.size.width, orB: frame.size.height)
@@ -56,27 +56,26 @@ public class nUIImageView: UIImageView {
         {
             let cornerRadius = borderRadiusAsRatio ? frame.size.height * borderRadius : borderRadius
             layer.cornerRadius = cornerRadius
-            layer.borderColor = borderColor.CGColor
+            layer.borderColor = borderColor.cgColor
             layer.borderWidth = borderWidth
             clipsToBounds = true
         }
     }
     
-    public func setImageWithURL(url: NSURL, doCache cache: Bool = true) {
+    open func setImageWithURL(_ url: URL, doCache cache: Bool = true) {
         let imageCache = nUIImageCache.defaultCache()
         if let image = imageCache.imageForURL(url) {
             self.image = image
         } else {
-            let mainQueue = NSOperationQueue.mainQueue()
+            let mainQueue = OperationQueue.main
             
             self.showActivityIndicator()
             
-            NSURLSession
-                .sharedSession()
-                .dataTaskWithURL(
-                    url,
+            URLSession.shared
+                .dataTask(
+                    with: url,
                     completionHandler: { (data, _, error) -> Void in
-                        let setImageblock = NSBlockOperation { () -> Void in
+                        let setImageblock = BlockOperation { () -> Void in
                             
                             // Whether setting image success/fails remove the activity indicator
                             defer {
@@ -85,7 +84,7 @@ public class nUIImageView: UIImageView {
                             
                             // Parse data to image with guard
                             guard
-                                let data = data where error == nil,
+                                let data = data, error == nil,
                                 let image = UIImage(data: data)
                                 else { return }
                             
@@ -105,7 +104,7 @@ public class nUIImageView: UIImageView {
     
     /// Return height that fits the current view's width as compared to
     /// actual image width so that it fits perfectly into view
-    public func heightThatFits() -> CGFloat {
+    open func heightThatFits() -> CGFloat {
         if let _ = self.image {
             let ratio = self.frame.size.width / self.image!.size.width
             let expectedViewHeight = self.image!.size.height * ratio

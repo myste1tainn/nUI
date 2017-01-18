@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		23F7778A1C89CD9700ADAB78 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F777891C89CD9700ADAB78 /* MainViewController.swift */; };
-		52C5043F2B695B93EBC814D2 /* Pods_nanoUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445A581BA3862ADFBF044465 /* Pods_nanoUI_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		D9FBC43BA0D24AB862F74F38 /* Pods_nanoUI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F01F567B5A618D11AAEF7D7 /* Pods_nanoUI_Tests.framework */; };
+		A611C2DB1FBE470C28F8A672 /* Pods_nanoUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF215836FFC8B5F1B2CCE94 /* Pods_nanoUI_Example.framework */; };
+		DB65133E6D49A1025DF7A6F3 /* Pods_nanoUI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7AFB19FBF32EFC15E4C013 /* Pods_nanoUI_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,11 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08AF0A7F87D3AF42B0B1A1F5 /* Pods-nanoUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nanoUI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nanoUI_Tests/Pods-nanoUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2226D10530A6F5F15758C64A /* Pods-nanoUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nanoUI_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nanoUI_Tests/Pods-nanoUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		23F777891C89CD9700ADAB78 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		2F01F567B5A618D11AAEF7D7 /* Pods_nanoUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nanoUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		445A581BA3862ADFBF044465 /* Pods_nanoUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nanoUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF215836FFC8B5F1B2CCE94 /* Pods_nanoUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nanoUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		538411EBBAD769A29F586EFF /* Pods-nanoUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nanoUI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-nanoUI_Example/Pods-nanoUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5678933E30BB3B5313F23E79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* nanoUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nanoUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +43,10 @@
 		607FACE51AFB9204008FA782 /* nanoUI_Example.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nanoUI_Example.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		75AE899A15CFC33EAA49DBC6 /* Pods-nanoUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nanoUI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nanoUI_Example/Pods-nanoUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7CC6400F692B967EF0C9E5A5 /* Pods-nanoUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nanoUI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-nanoUI_Example/Pods-nanoUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6676BBAD4428ADDA2CCEA3D1 /* Pods-nanoUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nanoUI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nanoUI_Tests/Pods-nanoUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		673592EDD917C233CAE24DCF /* Pods-nanoUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nanoUI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nanoUI_Example/Pods-nanoUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6A48C7A201A8B38671B45865 /* Pods-nanoUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nanoUI_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nanoUI_Tests/Pods-nanoUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9B7AFB19FBF32EFC15E4C013 /* Pods_nanoUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nanoUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C80A4C531F26D1DF0366DE /* nanoUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = nanoUI.podspec; path = ../nanoUI.podspec; sourceTree = "<group>"; };
 		C09AEAB4E9BC908BAB4A7EA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C5043F2B695B93EBC814D2 /* Pods_nanoUI_Example.framework in Frameworks */,
+				A611C2DB1FBE470C28F8A672 /* Pods_nanoUI_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,20 +64,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9FBC43BA0D24AB862F74F38 /* Pods_nanoUI_Tests.framework in Frameworks */,
+				DB65133E6D49A1025DF7A6F3 /* Pods_nanoUI_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		58C6E3E78537AD3C793C4450 /* Pods */ = {
+		5380A60C57220C14A51586FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				75AE899A15CFC33EAA49DBC6 /* Pods-nanoUI_Example.debug.xcconfig */,
-				7CC6400F692B967EF0C9E5A5 /* Pods-nanoUI_Example.release.xcconfig */,
-				08AF0A7F87D3AF42B0B1A1F5 /* Pods-nanoUI_Tests.debug.xcconfig */,
-				2226D10530A6F5F15758C64A /* Pods-nanoUI_Tests.release.xcconfig */,
+				673592EDD917C233CAE24DCF /* Pods-nanoUI_Example.debug.xcconfig */,
+				538411EBBAD769A29F586EFF /* Pods-nanoUI_Example.release.xcconfig */,
+				6676BBAD4428ADDA2CCEA3D1 /* Pods-nanoUI_Tests.debug.xcconfig */,
+				6A48C7A201A8B38671B45865 /* Pods-nanoUI_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -89,8 +89,8 @@
 				607FACD21AFB9204008FA782 /* Example for nUI */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				58C6E3E78537AD3C793C4450 /* Pods */,
-				DBF8BDBC1D364FF92D05B23D /* Frameworks */,
+				5380A60C57220C14A51586FA /* Pods */,
+				D26C6177DE59315326BA176C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,11 +153,11 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		DBF8BDBC1D364FF92D05B23D /* Frameworks */ = {
+		D26C6177DE59315326BA176C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				445A581BA3862ADFBF044465 /* Pods_nanoUI_Example.framework */,
-				2F01F567B5A618D11AAEF7D7 /* Pods_nanoUI_Tests.framework */,
+				4FF215836FFC8B5F1B2CCE94 /* Pods_nanoUI_Example.framework */,
+				9B7AFB19FBF32EFC15E4C013 /* Pods_nanoUI_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,12 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "nanoUI_Example" */;
 			buildPhases = (
-				1242CF072D3C2FCFD45F91F4 /* Check Pods Manifest.lock */,
+				6E5309623EDA65D3000AAF6D /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				BB04253BCD07874CBDA56CDB /* Embed Pods Frameworks */,
-				E7146E607A596FF71AB4E6EB /* Copy Pods Resources */,
+				EC2930136A64DC8D1AC47924 /* [CP] Embed Pods Frameworks */,
+				F17CC91ADC6EA0CF96B6B69A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,12 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "nanoUI_Tests" */;
 			buildPhases = (
-				9B5B53029E52060C594DE73F /* Check Pods Manifest.lock */,
+				14A17EFD74D4056796EAB045 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				8146F93207921C305E754173 /* Embed Pods Frameworks */,
-				F11B1E0BBA8CF5477BD49E6D /* Copy Pods Resources */,
+				15A5D87598CD8A6A20FCF2D9 /* [CP] Embed Pods Frameworks */,
+				D8490D04D584ED13B9F32959 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,29 +265,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1242CF072D3C2FCFD45F91F4 /* Check Pods Manifest.lock */ = {
+		14A17EFD74D4056796EAB045 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8146F93207921C305E754173 /* Embed Pods Frameworks */ = {
+		15A5D87598CD8A6A20FCF2D9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,29 +295,44 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nanoUI_Tests/Pods-nanoUI_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9B5B53029E52060C594DE73F /* Check Pods Manifest.lock */ = {
+		6E5309623EDA65D3000AAF6D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		BB04253BCD07874CBDA56CDB /* Embed Pods Frameworks */ = {
+		D8490D04D584ED13B9F32959 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nanoUI_Tests/Pods-nanoUI_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC2930136A64DC8D1AC47924 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,34 +340,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nanoUI_Example/Pods-nanoUI_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E7146E607A596FF71AB4E6EB /* Copy Pods Resources */ = {
+		F17CC91ADC6EA0CF96B6B69A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nanoUI_Example/Pods-nanoUI_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F11B1E0BBA8CF5477BD49E6D /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nanoUI_Tests/Pods-nanoUI_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -490,7 +490,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75AE899A15CFC33EAA49DBC6 /* Pods-nanoUI_Example.debug.xcconfig */;
+			baseConfigurationReference = 673592EDD917C233CAE24DCF /* Pods-nanoUI_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/nanoUI/Info.plist";
@@ -505,7 +505,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CC6400F692B967EF0C9E5A5 /* Pods-nanoUI_Example.release.xcconfig */;
+			baseConfigurationReference = 538411EBBAD769A29F586EFF /* Pods-nanoUI_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/nanoUI/Info.plist";
@@ -519,7 +519,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08AF0A7F87D3AF42B0B1A1F5 /* Pods-nanoUI_Tests.debug.xcconfig */;
+			baseConfigurationReference = 6676BBAD4428ADDA2CCEA3D1 /* Pods-nanoUI_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -540,7 +540,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2226D10530A6F5F15758C64A /* Pods-nanoUI_Tests.release.xcconfig */;
+			baseConfigurationReference = 6A48C7A201A8B38671B45865 /* Pods-nanoUI_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
